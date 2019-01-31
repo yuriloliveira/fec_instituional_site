@@ -1,0 +1,36 @@
+MÓDULO 6 - ENSAIOS GEOTÁCNICOS DE CAMPO
+
+CARGA  HORÁRIA : 45 HORAS AULA
+
+PROFESSORA RESPONSÁVEL: Dra Mirian Gonçalves Miguel
+
+PROFESSORES: Antonio Belincanta, Nilton J. Miyashiro, Fernando Ferraz, Marcelo Penna, Fernando Penna, Marcos Tanaka
+
+Ementa: Sondagem SPT com medida de torque, sondagem rotativa em rocha, ensaio de perda de água sobre pressão, ensaios de permeabilidade de laboratório e de campo, ensaios especiais geotécnicos CPTu, S-CPTu, R-CPTu, ensaios de dissipação de pressão neutra, SDMT, Vane Test. Histórico dos ensaios, fundamentações teóricas e técnicas de execução. Técnicas de amostragem de campo para diferentes condições geológicas. Análise, apresentação e interpretação de resultados. Exemplos de aplicação prática e demonstrações de campo.
+
+Objetivo: O curso tem como objetivo o de apresentar e discutir ensaios geotécnicos de campo de interesse às investigações geotécnica e geoambiental.
+
+Público-alvo: Engenheiros, Geólogos, Geógrafos, Tecnólogos, Químicos, e áreas afins.
+
+Procedimentos Metodológicos: Aulas expositivas em salas de aula, aulas práticas de campo e de laboratório, elaboração de relatórios e exercícios. Avaliação escrita.
+
+Bibliografia:
+Associação Brasileira de Geologia de Engenharia (ABGE). Manual de Sondagens. Boletim n°3, 4ª edição, São Paulo, 73 p. 2013. Associação Brasileira de Geologia de Engenharia E AMBIENTAL (ABGE). Ensaios de permeabilidade em solos: orientações para sua execução no campo. 4ª edição, São Paulo, 75 p. 2013.
+
+ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS (ABNT). NBR 6484-2001. Solo-sondagem de simples reconhecimento com SPT - Método de ensaio. Rio de Janeiro. 2001. 17p.
+
+ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS (ABNT). NBR 15492-2007. Sondagem de reconhecimento para fins de qualidade ambiental - Procedimentos. Rio de Janeiro. 2007.
+
+AMERICAN SOCIETY FOR TESTING AND MATERIALS. D 1586-11: Standard penetration test (SPT) and split-barrel sampling of soil. West Conshohocken, PA, United States. 2010. 9p.
+
+BELINCANTA, A. Avaliação de fatores intervenientes no índice de resistência à penetração do SPT. 1998. 141p. v.1. Tese (Doutorado em Geotecnia)- Escola de Engenharia de São Carlos, Universidade de São Paulo, São Carlos/SP.
+
+BELINCANTA, A. Fundamentos básicos dos ensaios de permeabilidade dos solos Editora Universidade Estadual de Maringá (Eduem), Coleção Apontamentos, n. 97, 57p. 2001.
+
+BELINCANTA, A; PEIXOTO, A. S. P; MIGUEL, M. G. Sondagem de simples reconhecimento com SPT e torque. Editora da Universidade Estadual de Maringá (Eduem), Coleção Fundamentum, n. 63, 64p. 2010.
+
+LAMBE, T. W.; WHITMAN, R. V. Mecánica de suelos. Cidade do México. Limusa, 6ª Ed. 582 p., 1989. LIMA, M. J. C. P. A. Prospecção geotécnica do subsolo. Livros técnicos e científicos. 104 p. 1979.
+
+SCHNAID, F.; ODEBRECHT, E. Ensaios de Campo e suas aplicações à Engenharia de Fundações. 2ª edição, Oficina de Textos, 223 p. 2012. Manual de Perfuração de Rocha do Eng. Herrmann C. Editora Polígono, 1968; Australian Drilling Industry . Drilling – The Manual of Methods, Applications and Management. CRC - Lewis Publishers, 1996;
+
+LUNNE, T. ROBERTSON, P.OK, POWELL, J.J.M, Cone Penetration Testing in Geotechnical Practice, CRC Press, 1997..

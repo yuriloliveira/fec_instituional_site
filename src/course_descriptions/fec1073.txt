@@ -1,0 +1,34 @@
+MÓDULO 3. HIDROGEOLOGIA E MEIO AMBIENTE
+
+
+Carga horária: 45h
+
+Professor responsável: Miriam Gonçalves Miguel
+Professores Doutores: Sueli Yoshinaga Pereira (IG), Ana Elisa Silva de Abreu (IG), Paulo Cesar de Melo Negrão (Clean Environment do Brasil), Nilton Jorge Miyashiro (Engesolos), Paulo Lima (Hidrodinâmica)
+
+Objetivo:
+A disciplina visa apresentar os fundamentos da dinâmica das águas subterrâneas, hidroquímica e qualidade. Os objetivos, tipos e aspectos construtivos de poços de monitoramento e procedimentos e técnicas de instalação de redes de poços serão apresentados neste modulo. Em estudos de áreas contaminadas, os conceitos básicos de transporte de massa serão apresentados, visando fazer com que o aluno adquira o conhecimento hidrogeológico e do comportamento dos contaminantes inorgânicos e orgânicos, com aplicação prática e exercícios.
+
+Ementa
+
+Hidrogeologia Ambiental (15 horas*) (7,5 hs Sueli e 7,5hs Ana Elisa)
+Propriedades físicas da rocha e fluido (permeabilidade, porosidade, transmissividade e condutividade hidráulica); definição de aquíferos, aquitardes e aquifugos; dinâmica e fluxo das águas subterrâneas, mapa potenciométricos, testes de slug e de bombeamento, princípios de fluxo em meio não saturado. Atividade prática de elaboração de mapa potenciométricos e slug testes na escola de campo.
+
+Redes de Monitoramento de Águas Subterrâneas e Poços de Monitoramento (15 horas*) (Paulo Negrão vai distribuir as cargas horárias).
+Projeto de poços de monitoramento (normas ABNT), tipos de poços de monitoramento (para duas e três dimensões), modernas técnicas de perfuração e instalação de poços. Atividade prática de instalação de um poço de monitoramento e descrição geológica de amostras coletadas deste poço na escola de campo.
+
+Fluxo e Transporte de Contaminantes em Meio Saturado (15 horas*) (aulas do Paulo Lima)
+Conceito de contaminação. Padrões de Referência. Principais fontes de contaminação para as águas subterrâneas. Principais contaminantes inorgânicos e orgânicos das águas subterrâneas. Processos de transporte de massa e fluxo multifásico. Difusão, Advecção e Dispersão Hidrodinâmica. Retardação e Atenuação de contaminantes.
+
+
+*Dois sábados com 7,5 horas cada. A avaliação deverá ser feita nas duas (ou 3) últimas horas do último sábado.
+
+Bibliografia Básica
+
+CLEARY, R.W. (1989). Águas Subterrâneas. Associação Brasileira de Recursos Hídricos. 117p.
+DOMENICO, P.A. & SCHWARTZ, F.W. (1998). Physical and Chemical Hydrogeology. John Wiley & Sons. 506p.
+FETTER, C.W. (1993). Contaminant Hydrogeology. Maxwell Macmillan International. 458p..
+FETTER, C.W. (1994). Applied Hydrogeology. Third Edition. Prentice-Hall Inc. 691p.
+FREEZE, R.A. & CHERRY, J. (1979). Groundwater. Prentice-Hall. 604p.
+NIELSEN, D.M. (2005). Practical Handbook of Environmental Site Characterization and Ground-Water Monitoring. CRC Press. Second Edition. 1328p.
+PAYNE, F.C.; QUINNAN, J.A.; POTTER, S.T. (2008). Remediation Hydraulics. CRC Press. 408p.

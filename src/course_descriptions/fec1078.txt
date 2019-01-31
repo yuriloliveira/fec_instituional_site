@@ -1,0 +1,45 @@
+MÓDULO 8 – CONSOLIDAÇÃO DA INVESTIGAÇÃO GEOAMBIENTAL
+
+
+Carga horária: 45h
+
+Professor responsável: Miriam Gonçalves Miguel
+Professores: Alexandre Campane Vidal (IG)
+
+Objetivo:
+O curso tem o objetivo de apresentar aos alunos o potencial de aplicabilidade dos métodos geoestatísticos na investigação geoambiental. Além disso, o curso pretende introduzir os alunos à Modelagem Matemática de Fluxo e Transporte em sistemas de águas subterrâneas, por meio de modelos analíticos e numéricos. Após esse conteúdo, os alunos terão condições de apresentar, em forma de seminários gerais, um modelo final de uma investigação geoambiental.
+
+Ementa
+
+Análise exploratória dos dados. Conceitos fundamentais de Geoestatística. Hipóteses de estacionaridade estatística, semivariogramas, modelos de ajustes e anisotropia. Estimação local e global (Krigagem) de atributos ambientais. Coestimativa Geoestatistica. Simulação Geoestatística. Visão geral da modelagem de águas subterrâneas, modelos e suas aplicações. Modelos de site conceitual. Modelos analíticos versus numéricos usados em problemas de água subterrânea: aplicações e limitações. Dados necessários por modelos de fluxo e transporte e métodos para colecioná-los. Importância da anisotropia horizontal e vertical (Kh / Kv) e porosidade efetiva nas zonas de captura (fluxo e transporte). Tempo de viagem. Teoria, fundamentos e aplicações da atenuação natural, degradação, dispersão, sorção e retardo. Exercícios de laboratório de computação aplicando Bioscreen-AT (modelo analítico) e Modflow (modelo numérico). Seminários sobre o modelo final de investigação geoambiental.
+
+Bibliografia Básica
+
+Anderson, M.D. and W.W. Woessner, 1992.  Applied Ground Water Modeling: Simulation of Flow and Advective Transport, Academic Press Inc. San Diego, CA,  381 pp.
+Anderson, M.D., W.W. Woessner and R.J. Hunt, 2015. Applied Groundwater Modeling: Simulation of Flow and Advective Transport. 2nd Edition. Academic Press, Inc., San Diego, CA, 564 pp.
+Brusseau, M.L., 1996. Evaluation of Simple Methods for Estimating Contaminant Removal by Flushing. Ground Water, Vol. 34, No. 1, pp. 19-22
+Bumb, A.C., J.T. Mitchell and S.K. Gifford, 1997. Design of a Ground-Water Extraction/Reinjection System at a Superfund Site Using MODFLOW. Ground Water, Vol. 35, No. 3, pp. 400-408.
+Cleary, R.W., 1989. Modelagem Matematica em Agua Subterranea. Parte II: Capitulo 3 no livro: Hidrologia Ambiental. Associacao Brasileira de Recursos Hidricos (ABRH) Vol III, Editora da UFRJ, Rio de Janeiro, Brasil, pp. 211-296.
+Cleary, R.W., 2017. Fate and Transport Processes: Natural Attenuation Mechanisms In Contaminant Migration. Chapter 5 in the Princeton Groundwater Pollution and Hydrology Course. Princeton Groundwater, Tampa, FL   34 pages
+Deutsch, C. V.; Journel, A. G. 1996. GSLIB: Geostatistical Software Library and User’s Guide, Oxford. University Press, 360p.
+Freeberg, K.M., P.B. Bedient and J.A. Conner, 1987.  Modeling of TCE Contamination And Recovery in a Shallow Sand Aquifer. Ground Water, Vol. 25, pp. 70-80
+Dracos, Th. and F. Stauffer [Editors], 1994. Transport and Reactive Processes in Aquifers. Proceedings of the IAHR/AIRH Symposium, Zurich Switzerland, April 11-15.Published by A.A. Balkema Publishers, Brookfield, VT
+Isaaks, E. H.; Srivastava R. M. 1989. Applied Geostatistics, Oxford Press, 561p.
+Javandel, I., C. Doughty and C.F. Tsang, 1984. Groundwater Transport: Handbook of Mathematical Models. American Geophysical Union, Water Resources Monograph Number 10, Washington, D.C.  228 p.
+Javandel, I. and C.F. Tsang, 1986. Capture-Zone Type Curves: A Tool for Aquifer Cleanup. Ground Water, Vol. 24, No. 5, pp. 616-625
+Kitanidis, P. 1997. Introduction to Geostatistics: applications in hydrogeology. New York: Cambridge University Press, 267p.
+Konikow, L.F., 2011. The Secret to Successful Solute-Transport Modeling. Ground Water, Vol. 49, No. 2, pp. 144-159
+Kresic, N., 2007. Hydrogeology and Groundwater Modeling. 2nd Edition. CRC Press Taylor and Francis Group. Boca Raton, FL. 807 pp
+Kresic, N. and A. Mikszewski, 2013. Hydrogeological Conceptual Site Models: Data Analysis and Visualization. CRC Press, Taylor and Francis Group, Boca Raton, FL 584pp.
+Larson, S.P., C.B. Andrews, M.D. Howland and D.T. Feinstein. 1987. Three-Dimensional Modeling Analysis of Ground Water Pumping Schemes for Containment of Shallow Ground Water Contamination. Proceedings of the Conference on Solving Ground Water Problems with Models, Volumes 1 and 2, Denver, CO., National Water Well Association, Dublin, OH, pp. 517-530
+Marquis, S.A., Jr. and D. Dineen, 1994. Comparison Between Pump and Treat, Biorestoration/Pump and Treat Combined: Lessons from Computer Modeling. Ground Water Monitoring and Remediation, Vol. 14, No. 2, pp. 105-119
+National Academies Press, 1989.  Ground Water Models: Scientific and Regulatory Applications. F. Schwartz (Ed.). Washington, D.C. 328 pp.
+National Academies Press, 2015. Characterization, Modeling, Monitoring and Remediation of Fractured Rock. National Academy Press, Washington, D.C.  www.nap.edu. 181 pp.
+Rifai, H.S., C.J. Newell, and J.T. Wilson, 2000. Modeling Natural Attenuation of Fuels With Bioplume III. Journal of Environmental Engineering, Vol. 126, No. 5, P. 428
+Sarma, D. D. 2009. Geostatistics with Applications in Earth Sciences. Springer Netherlands, 206p.
+Spitz, K. and J. Moreno, 1996. A Practical Guide to Groundwater and Solute Transport Modeling. John Wiley and Sons, Inc. New York. 461 pp.
+U.S. Geological Survey, 2004. Guidelines for Evaluating Ground-Water Flow Models Scientific Investigations Report 2004-5038  30 pp
+Webster, R.; Oliver, M. A. 2007. Geostatistics for Environmental Scientists (Second Edition). John Wiley & Sons, Ltd. 318p.
+Wiedemeirer, T.H., H.S. Rifai, C.J. Newell and J.T. Wilson, 1999. Natural Attenuation of Fuels and Chlorinated Solvents in the Subsurface. John Wiley and Sons, Inc., 617 pp.
+Yamamoto, J. K.; Landim, P. M. B. 2013. Geoestatística: conceitos e aplicações. Oficina de Textos, 215p.
+Zheng, C. and G.D. Bennett, 2002. Applied Contaminant Transport Modeling. 2nd Edition. Wiley-Interscience. New York. 621 pp.

@@ -1,0 +1,49 @@
+MÓDULO 4. GERENCIAMENTO AMBIENTAL
+
+Carga horária: 45h
+
+Professor responsável: Miriam Gonçalves Miguel (frente a Extecamp)
+Professores: Alexandre Muselli Barbosa (IPT), Leandro Gomes de Freitas (IPT), Ero Hermínio Crozera
+
+Objetivo:
+
+O curso tem como objetivo geral apresentar aos alunos os conceitos básicos sobre o gerenciamento ambiental, com enfoque para a questão de áreas contaminadas, compreendendo desde a legislação básica, até os procedimentos específicos adotados em cada etapa dos processos, como os de identificação e de reabilitação de áreas contaminadas, bem como o desenvolvimento de um plano de intervenção.
+
+HISTÓRICO E LEGISLAÇÃO AMBIENTAL
+
+EMENTA: Histórico das legislações ambientais. Implementação dos procedimentos legais adotados no Estado de São Paulo.
+
+PROCESSO DE IDENTIFICAÇÃO DE ÁREAS CONTAMINADAS
+....
+Processo de Identificação do Gerenciamento de Áreas Contaminadas no Estado de São Paulo e suas quatro etapas: Região de Interesse. Identificação das Áreas com Potencial de Contaminação na delimitação da região de interesse. Diagnóstico inicial destas áreas, por meio da elaboração de uma Avaliação Preliminar. Principais técnicas de investigação de áreas contaminadas e os planos de amostragem (para os bens a proteger elencados pelo gestor, como o solo, o gás do solo, as águas e os materiais construtivos) para a correta execução de uma Investigação Confirmatória.
+
+PROCESSO DE REABILITAÇÃO DE ÁREAS CONTAMINADAS e PLANO DE INTERVENÇÃO
+Processo de Reabilitação de Áreas Contaminadas no Estado de São Paulo e suas seis etapas (Avaliação de risco, Concepção da remediação, projeto de remediação, remediação, monitoramento e plano de intervenção). Etapa de Investigação detalhada, Adoção de medidas corretivas. Princípio da “aptidão para o uso”. Avaliação de risco. Concepção da remediação.
+
+Bibliografia Básica
+
+AMERICAN SOCIETY FOR TESTING AND MATERIALS - ASTM. Standard Guide for for Developing Conceptual Site Models for Contaminated Sites. ASTM E 1689-95. 2008.
+ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS - ABNT. NBR 15495-1: Poços de Monitoramento de Águas Subterrâneas em Aquíferos Granulares – Parte 1: Projeto e Construção. Rio de Janeiro: ABNT, 2007
+ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS - ABNT. NBR 15495-2: Poços de Monitoramento de Águas Subterrâneas em Aquíferos Granulares – Parte 2: Desenvolvimento. Rio de Janeiro: ABNT, 2008.
+ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS - ABNT. NBR 15515-1: Passivo ambiental em solo e água subterrânea - Parte 1: Avaliação preliminar. Rio de Janeiro: ABNT, 2007
+ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS - ABNT. NBR 15515-2: Passivo ambiental em solo e água subterrânea - Parte 2: Investigação confirmatória. Rio de Janeiro: ABNT, 2011.
+ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS - ABNT. NBR 15515-2: Passivo ambiental em solo e água subterrânea - Parte 2: Investigação detalhada. Rio de Janeiro: ABNT, 2013.
+ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS - ABNT. NBR 16210: Modelo conceitual no gerenciamento de áreas contaminadas: Procedimento. Rio de Janeiro, 2013.
+BRADY, N.C., WEIL, R.R. Elements of the nature and properties of soils. New Jersey, Prentice Hall. 624p. 2009.
+CARTER, M. R.; GREGORICH, E. G. Soil sampling and methods of analysis. CRC Press, Boca Raton. 2008.
+COMPANHIA AMBIENTAL DO ESTADO DE SÃO PAULO - CETESB. Manual de Gerenciamento de áreas contaminadas. 2ª ed. São Paulo: CETESB. 2001.
+COMPANHIA AMBIENTAL DO ESTADO DE SÃO PAULO - CETESB. Decisão de diretoria nº 103-2007-C-E, de 22 de junho de 2007. Dispõe sobre o procedimento para gerenciamento de áreas contaminadas. CETESB. 2007.
+COMPANHIA AMBIENTAL DO ESTADO DE SÃO PAULO - CETESB. Ações Corretivas Baseadas em Risco (ACBR) aplicadas a Áreas Contaminadas com Hidrocarbonetos Derivados de Petróleo e Outros Combustíveis Líquidos: Procedimentos. São Paulo, 2006. 59 p.
+COMPANHIA AMBIENTAL DO ESTADO DE SÃO PAULO - CETESB. Decisão de Diretoria nº 263-2009-P, de 20 de outubro de 2009. Dispõe sobre a aprovação do Roteiro para Execução de Investigação Detalhada e Elaboração de Plano de Intervenção em Postos e Sistemas Retalhistas de Combustíveis. 2009b. São Paulo, 2009.
+CONSELHO NACIONAL DE MEIO AMBIENTE - CONAMA. Resolução nº 420, de 28 de dezembro de 2009. Dispõe sobre critérios e valores orientadores de qualidade do solo quanto à presença de substâncias químicas e estabelece diretrizes para o gerenciamento ambiental de áreas contaminadas por essas substâncias em decorrência de atividades antrópicas. Diário Oficial da União, Brasília, nº 249, 30 dez. 2009. p. 81-84.
+CROZERA, E. H. Identificação de áreas contaminadas no município de Ribeirão Pires/SP. São Paulo. 2001. 189p. Tese (Doutorado), Instituto de Geociências, Universidade de São Paulo.
+CUNHA, R. C. A. Avaliação de risco em áreas contaminadas por fontes industriais desativadas estudo de caso. 1997. 128p. Tese (Doutorado) – Instituto de Geociências, Universidade de São Paulo, São Paulo, 1997.
+EMPRESA BRASILEIRA DE PESQUISA AGROPECUÁRIA - EMBRAPA: Centro Nacional de Pesquisa de Solos. Manual de Métodos de Análise de Solo. Rio de Janeiro: EMBRAPA. 2ª Rev. 212p. 2007.
+FETTER, C.W. Contaminant hidrogeology. New York, Macmillan Publishing Company, 1999.
+GLOEDEN, E. Gerenciamento de áreas contaminadas na bacia hidrográfica do reservatório Guarapiranga. São Paulo. 1999. 225p. Tese (Doutorado), Instituto de Geociências, Universidade de São Paulo.
+INSTITUTO DE PESQUISAS TECNOLÓGICAS DO ESTADO DE SÃO PAULO S.A. - IPT. Guia de elaboração de planos de intervenção: para o gerenciamento de áreas contaminadas. São Paulo: IPT - Instituto de Pesquisas Tecnológicas do Estado de São Paulo: BNDES, 2013.
+SÃO PAULO (ESTADO). Lei n° 13.577 de 08 de julho de 2009. Dispõe sobre diretrizes e procedimentos para a proteção da qualidade do solo e gerenciamento de áreas contaminadas, e dá outras providências correlatas. Diário Oficial do Estado, São Paulo. Seção Executiva – Caderno 1. 09 jul. 2009
+SÃO PAULO (ESTADO). Decreto Estadual Nº 59.263, de 5 de junho de 2013. Regulamenta a Lei nº 13.577, de 8 de julho de 2009, que dispõe sobre diretrizes e procedimentos para a proteção da qualidade do solo e gerenciamento de áreas contaminadas, e dá providências correlatas. São Paulo, 2013.
+SÁNCHEZ, L. E. – A Desativação de empreendimentos industriais: um estudo sob passivo ambiental. São Paulo, 1998, 176p. Tese de Livre Docência, Escola Politécnica, Universidade de São Paulo.
+SHEREVE, R.; BRINK Jr., J. A. Indústria de processos químicos. 4a Ed. Rio de Janeiro: Ed. Guanabara. 1977.
+UNITED STATES ENVIRONMENTAL PROTECTION AGENCY. Risk Assessment Guidance for Superfund Volume I Human Health Evaluation Manual (Part A). EPA /540/1-89/002. Washington: USEPA, 1989.

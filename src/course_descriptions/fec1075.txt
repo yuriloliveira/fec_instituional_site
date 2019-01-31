@@ -1,0 +1,44 @@
+MÓDULO 5 – ENSAIOS GEOFÍSICOS
+
+Carga horária: 45h
+
+Professor responsável: Miriam Gonçalves Miguel
+Professores: Prof Dr. Vagner Roberto Elis, Prof. Dr. Renato Luiz Prado, Prof. Dr. Otávio Coaracy Brasil Gandolfo
+
+Objetivo:
+Apresentar o potencial de aplicabilidade dos métodos geofísicos na investigação geoambiental. O curso objetiva proporcionar ao aluno uma visão da utilização de métodos geofísicos em estudos de contaminação de solos e águas subterrâneas.
+
+Ementa
+
+Métodos Geoelétricos
+1.Geofísica Aplicada
+2.Aplicação de métodos geofísicos na caracterização de áreas poluídas
+3.Principais métodos geoelétricos em estudos ambientais: a. Resistividade, b. Eletromagnético Indutivo
+4. Exemplos de casos
+
+Método GPR
+1. Princípios do método GPR
+2. Propagação da onda eletromagnética em um meio
+3. Frequências x profundidade de penetração
+4. Resolução horizontal & vertical
+5. Equipamentos, aquisição de dados, parâmetros utilizados
+6. Noções de processamento de dados de GPR
+7. Aplicações de GPR em estudos ambientais
+8. Estudos de caso
+
+Métodos Sísmicos
+1.Contexto da aplicação dos métodos sísmicos na investigação de áreas poluídas
+2.Principais métodos sísmicos em estudos ambientais: a.Refração, b.Reflexão, c. Croshole, d. MASW.
+3.Exemplos de casos
+
+Bibliografia Básica
+
+ANNAN, A. P. 1992. Uses and techniques of ground penetrating radar in near-surface geophysics. Workshop Notes: Society of Exploration Geophysicists, Sensor & Software Inc., 110p.
+BURGER, H.R. 1992.  Exploration Geophysics of the shallow subsurface. Prentice Hall PTR, 489 p.
+KEAREY P., BROOKS, M., HILL, I. 2009. Geofísica de Exploração. Tradução: Coelho, M. C. M. São Paulo. Oficina de Textos. 438p.
+ORELLANA, E. 1972. Prospeccion Geoelectrica en Corriente Continua. Ed. Paraninfo, Madrid, 523p.
+PARASNIS, D. S. 1997. Principles of applied geophysics. 5ed. London: Chapman and Hall, 429p.
+REYNOLDS, J. M. 1997. An introduction to applied and environmental geophysics. New York: John Wiley & Sons, 796p.
+SHARMA, P. V. 1997. Environmental and engineering geophysics. 2ed. Cambridge: Cambridge. University Press, 475p.
+TELFORD, W.M.; GELDART, L.P.; SHERIFF, R.E. & KEYS, D.A. 1990. Applied Geophysics. Cambridge University Press, 860 p.
+VOGELSANG, D.  1995. Environmental Geophysics. A practical guide. Springer-Verlag, Berlim, 172p.

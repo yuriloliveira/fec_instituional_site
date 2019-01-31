@@ -1,0 +1,33 @@
+MÓDULO 7 – AMOSTRAGENS DE SOLO, ÁGUA SUBTERRÂNEA E VAPORES
+
+Carga horária: 45h
+
+Professor responsável: Miriam Gonçalves Miguel
+Professores: Dr. Paulo de César de Melo Negrão, MSc Rosa Maria de Macedo Borges, Dr Marco Aurélio Zequim Pede
+
+Objetivo:
+
+O curso tem como objetivo apresentar aos alunos técnicas de amostragem de solos contaminados por compostos orgânicos e inorgânicos, técnicas de alta resolução (MIP, UVOST, Waterloo Profiler), conhecimentos sobre a hidráulica de poços de monitoramento, técnicas de amostragem de águas subterrâneas e procedimentos auxiliares de campo, particionamento de contaminantes orgânicos voláteis para a fase de vapores, técnicas de amostragem de vapores em campo e técnicas de mitigação para intrusão de vapores.
+
+Ementa
+
+Tipos de Contaminantes Orgânicos. Comportamento dos Contaminantes. Seleção e Uso de Equipamentos para Amostragem de Solos. Estratégias Tridimensionais de Amostragem de Solos. Manuseio e Análise de Amostras de Solo pelo Método EPA 5035B. Evolução histórica das técnicas de amostragem de águas subterrâneas. Fatores que influenciam a representatividade das amostras de águas subterrâneas. Processos físicos, químicos e biológicos em poços de monitoramento. Métodos de Purga e Coleta de Amostras de Águas Subterrâneas. Filtração e Preservação de Amostras. Holding Times. Descontaminação dos equipamentos utilizados na amostragem de águas subterrâneas. Controle da Qualidade. Determinação da Condutividade Hidráulica através de dados da amostragem. Prática de Campo de Coleta de Amostra de Águas Subterrâneas. Conceitos Fundamentais sobre Intrusão de Vapores. Particionamento dos Contaminantes. Transporte dos Vapores pela Zona Não Saturada. Métodos de Investigação para Intrusão de Vapores. Métodos de Amostragem. Métodos Analíticos. Alternativas de Mitigação
+
+Bibliografia Básica
+
+ABNT, NBR 15492:2007, Sondagem de reconhecimento para fins de qualidade ambiental - Procedimento. Associação Brasileira de Normas Técnicas.
+ABNT, NBR 15847:2010, Amostragem de Águas Subterrâneas em Poços de Monitoramento: Métodos de Purga. Associação Brasileira de Normas Técnicas.
+ABNT, NBR 16434:2015, Amostragem de resíduos sólidos, solos e sedimentos - Análise de compostos orgânicos voláteis (COV) – Procedimento. Associação Brasileira de Normas Técnicas.
+ABNT NBR 16435:2015 - Controle da qualidade na amostragem para fins de investigação de áreas contaminadas – Procedimento, elaborada pela Comissão de Estudo Especial de Avaliação da Qualidade do Solo e Água p/ Levantamento de Passivo Ambiental e Análise de Risco à Saúde. Associação Brasileira de Normas Técnicas Humana.
+ASTM D7352 - 07(2012). Standard Practice for Direct Push Technology for Volatile Contaminant Logging with the Membrane Interface Probe (MIP)
+EPA. Technical Guide for Addressing Petroleum Vapor Intrusion at Leaking Underground Storage Tank Sites. EPA/510/r-15/001. U.S. Environmental Protection Agency. 2015.
+EPA. OSWER Technical Guide for Assessing and Mitigating The Vapor Intrusion Pathway from Subsurface Vapor Sources to Indoor Air . 9200.2-154. U.S. Environmental Protection Agency. 2015.
+Gouvêa Jr, J.C.  Intrusão de Vapores em Ambientes Fechados – Conceitos Básicos, Avaliação e Gerenciamento de Áreas Contaminadas. NICOLE BRASIL
+ITRC. Vapor Intrusion Pathway: A Practical Guideline. The Interstate Technology & Regulatory Council. 2007.
+ITRC. Incremental Sampling Methodology. The Interstate Technology and Regulatory Council. Washington, DC. 2012
+Mason, B. Preparation of Soil Sampling Protocols: Sampling Techniques and Strategies. EPA/600/R-92/128. U.S. Environmental Protection Agency, Las Vegas, NV. 1992
+Nielsen, D.; Nielsen, G.  The Essential Handbook of Groundwater Sampling. CRC Press, Boca Raton, FL. 2007, 309 p.
+Parker, L.V. The Effects of Ground-Water Sampling Devices on Water Quality: A Literature Review; Ground-Water Monitoring and Remediation, Vol. 14, No. 2, pp. 130-141.
+Puls, R. W.; Barcelona, M. J. 1989, Ground Water Sampling for Metals Analysis; USEPA Superfund Ground Water Issue, EPAI54O/4-89/001, Office of Solid Waste and Emergency Response, Washington, DC, 6 pgs.
+Robbins, G., Alejandra T. Aragon-Jose, 2011, Low-Flow Hydraulic Conductivity Tests at Wells that Cross the Water Table, Ground Water Monitoring and Remediation, Vol. 49 pp. 426 – 413
+Robbins, G., Alejandra T. Aragon-Jose, Andres Romero, 2009, Determining Hydraulic Conductivity Using Pumping Data from Low-Flow Sampling, Ground Water Monitoring and Remediation, Vol. 47 pp. 271 – 276

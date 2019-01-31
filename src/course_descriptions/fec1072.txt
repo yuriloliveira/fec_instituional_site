@@ -1,0 +1,33 @@
+MÓDULO 2 – GEOTECNIA E MEIO AMBIENTE
+
+Carga horária: 45h
+
+Professor responsável: Miriam Gonçalves Miguel
+Professores: Miriam Gonçalves Miguel e Ana Elisa Silva de Abreu
+
+Objetivo:
+Este curso tem como objetivo permitir ao aluno conhecer as principais aplicações da Geotecnia em problemas ambientais, buscando a atualização de conceitos e de técnicas e o questionamento das soluções empregadas, dentro da perspectiva científica. Além disso, o curso permite ao aluno realizar práticas de laboratório para fins de obtenção de parâmetros físicos e geotécnicos de solos.
+
+Ementa
+Geotecnia Ambiental - Parte 1
+Conceitos em Geotecnia Ambiental; Origem e formação de solos; Perfis típicos de alteração, Índices físicos; Estrutura dos solos; Granulometria; Estados de consistência; Química dos solos, Classificação de solos; Compactação de solos; Permeabilidade de solos;
+
+Geotecnia Ambiental - Parte 2
+Compressibilidade de solos, Resistência ao cisalhamento dos solos; Geossintéticos, Comportamento Geotécnico das rochas ígneas, metamórficas e sedimentares, Descrição de descontinuidades em maciços rochosos,Processos erosivos, Escorregamentos de encostas, Mineração, Disposição de resíduos.
+
+Ensaios Geotécnicos de Laboratório
+Caracterização visual táctil de solos; Teor de Umidade, Massa específica natural; Massa específica dos sólidos, Granulometria conjunta, Limites de consistência, Compactação, Adensamento, Compressão simples, Cisalhamento direto; Triaxial.
+
+Bibliografia Básica
+
+BARNES, G. (2016). Mecânica dos Solos: Princípios e Práticas. 3ª edição. Elsevier.
+BOSCOV, M. E. G. (2008). Geotecnia Ambiental. Oficina de Textos. São Paulo.
+CRAIG, R.F. (2007). Mecânica dos Solos. LTC Editora.
+DAS, B. M. (2007). Fundamentos de Engenharia Geotécnica. Thomson Learning.
+FIORI, A. P. e CARMIGNANI. (2001). Fundamentos de Mecânica dos Solos e das Rochas. Aplicações na Estabilidade de Taludes. Editora das UFPR, 550p.
+GOODMAN, R.E. (1993).Engineering Geology: Rock in Engineering Construction. Singapore: John Wiley & Sons Inc, 412 p.
+PINTO, C.S. (2000). Curso básico de mecânica dos solos em 16 aulas. São Paulo, Oficina de Textos, 247p.
+TEIXEIRA, W.; TOLEDO, C.M.; FAIRCHILD, T.R.; TAIOLI, F. (2000). Decifrando a Terra. Oficina de Textos editora, São Paulo. 557p.
+VAZ, L.F. (1996). Classificação genética dos solos e dos horizontes de alteração de rocha em regiões tropicais. In: Revista Solos e Rochas. São Paulo: ABGE, ABMS. p.117-136.
+VERTEMATTI, J. C. (2004). Manual Brasileiro de Geossintéticos. São Paulo: Edgard Blücher
+ZUQUETTE, L.V. (2015). Geotecnia Ambiental. Rio de Janeiro: Elsevier
