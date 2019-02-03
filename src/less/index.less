@@ -100,12 +100,12 @@ a {
     color: @red;
 }
 
-.intro-section {
+.section-intro {
     .flex(column);
     margin-top: @spacing-xl;
 }
 
-.intro-section__content {
+.section-intro__content {
     height: 400px;
 
     .flex(row, space-between);
@@ -116,20 +116,40 @@ a {
     height: 210px;
 }
 
-.intro-section__content__text {
+.section-intro__content__text {
     width: 400px;
     text-align: right;
 }
 
-.intro-section__actions {
+.section-intro__actions {
     width: 100%;
     .flex(row, flex-end);
 }
 
-.intro__section__actions__action {
+.section-intro__actions__action {
     margin-left: @spacing;        
 }
 
-.intro__section__actions__action:first-child {
+.section-intro__actions__action:first-child {
     margin-left: 0;
+}
+
+.section-how__content {
+    .flex(row, space-around);
+}
+
+.section-how__content__card {
+    .flex(column, flex-start);
+    max-width: 250px;
+}
+
+.section-how__content__card__title {
+    color: @blue;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: @spacing;
+}
+
+.section-how__content__card__description {
+    text-align: center;
 }

@@ -16,17 +16,20 @@ button {
   
   cursor: pointer; /* hand cursor */
 
-  transition: background-color .3s ease-out;
+  transition: box-shadow .2s ease-in-out;
+}
+
+button:hover {
+  box-shadow: rgba(0, 0, 0, .3) 0 1px 5px;
+}
+
+button:active {
+  box-shadow: none;
 }
 
 .button--primary {
-  background-color: rgba(@blue, .9);
-  border: 1px solid @blue;
-  min-width: 200px;
-}
-
-.button--primary:hover {
   background-color: @blue;
+  min-width: 200px;
 }
 
 .button--secondary {
