@@ -1,0 +1,34 @@
+@import "colors";
+
+@inner-padding: 12px;
+
+button {
+  padding: (@inner-padding * .75) @inner-padding; /* (top and bottom) (left and right) */
+  
+  border: none;
+  border-radius: 2px;
+
+  color: #fff;
+  background-color: @default;
+
+  font-size: 14px;
+  font-weight: 550;
+  
+  cursor: pointer; /* hand cursor */
+
+  transition: background-color .3s ease-out;
+}
+
+.button--primary {
+  background-color: rgba(@blue, .9);
+  border: 1px solid @blue;
+  min-width: 200px;
+}
+
+.button--primary:hover {
+  background-color: @blue;
+}
+
+.button--secondary {
+  background-color: @brown;
+}

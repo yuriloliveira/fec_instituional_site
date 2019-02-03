@@ -1,0 +1,135 @@
+/* Used BEM naming conventions for class names
+    read it at www.getbem.com/naming */
+
+@import "colors";
+
+/* variables */
+@spacing-xs: 5px;
+@spacing-sm: 10px;
+@spacing: @spacing-sm; // default spacing
+@spacing-md: 20px;
+@spacing-lg: 30px;
+@spacing-xl: 50px;
+
+@section-padding-top: 0;
+@section-padding-left: 24px;
+@section-padding: @section-padding-top @section-padding-left;
+
+@horizontal-padding: @spacing-md; 
+
+/* mixins */
+.flex(@direction, @justify-content, @align-items) { /* This is a less css mixin  */
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: @direction;
+    justify-content: @justify-content;
+    align-items: @align-items;
+}
+
+.flex(@direction, @justify-content) {
+    .flex(@direction, @justify-content, stretch); /* stretch is the default value for align-items property */
+}
+
+.flex(@direction) {
+    .flex(@direction, flex-start)
+}
+
+/* style */
+* {
+    /* border-box makes padding count as width of element */
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.header {
+    width: 100%;
+    height: 50px;
+
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    background-color: @red;
+    padding-left: @horizontal-padding;
+
+    .flex(row-reverse, flex-start, center);
+}
+
+.header__item {
+    margin-left: @spacing-md;
+    color: #fff;
+}
+
+.header__item:last-child {
+    margin-left: 0;
+}
+
+.header__item--register {
+    height: 100%;
+}
+
+.main-container {
+    width: 100%;
+    min-width: 800px;
+    max-width: 1366px;
+
+    section {
+        padding: @section-padding;
+        margin-bottom: @spacing-xl;
+    }
+}
+
+.section__title {
+    width: 100%;
+    margin-bottom: @spacing-lg;
+
+    text-align: center;
+    
+    color: @red;
+}
+
+.intro-section {
+    .flex(column);
+    margin-top: @spacing-xl;
+}
+
+.intro-section__content {
+    height: 400px;
+
+    .flex(row, space-between);
+}
+
+.intro__section__content__logo {
+    width: 360px;
+    height: 210px;
+}
+
+.intro-section__content__text {
+    width: 400px;
+    text-align: right;
+}
+
+.intro-section__actions {
+    width: 100%;
+    .flex(row, flex-end);
+}
+
+.intro__section__actions__action {
+    margin-left: @spacing;        
+}
+
+.intro__section__actions__action:first-child {
+    margin-left: 0;
+}
