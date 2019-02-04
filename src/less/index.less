@@ -40,6 +40,8 @@
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
+
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body {
@@ -68,7 +70,7 @@ a {
 }
 
 .header__item {
-    margin-left: @spacing-md;
+    margin-left: @spacing-lg;
     color: #fff;
 }
 
@@ -84,6 +86,8 @@ a {
     width: 100%;
     min-width: 800px;
     max-width: 1366px;
+
+    margin: 0 auto;
 
     section {
         padding: @section-padding;
@@ -148,8 +152,28 @@ a {
     text-align: center;
     font-size: 32px;
     margin-bottom: @spacing;
+    margin-top: 0;
 }
 
 .section-how__content__card__description {
     text-align: center;
+}
+
+.section-about__text {
+    text-align: center;
+}
+
+.card {
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, .3) 0 1px 5px;
+    padding: @spacing-xs @spacing-lg;
+}
+
+.course-card {
+    width: 50%;
+    margin-bottom: @spacing;
+}
+
+.section-course__content {
+    .flex(row, space-between);
 }
