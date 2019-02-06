@@ -12,7 +12,7 @@
 @spacing-xl: 50px;
 
 @section-padding-top: 0;
-@section-padding-left: 24px;
+@section-padding-left: 36px;
 @section-padding: @section-padding-top @section-padding-left;
 
 @horizontal-padding: @spacing-md; 
@@ -20,7 +20,7 @@
 /* mixins */
 .flex(@direction, @justify-content, @align-items) { /* This is a less css mixin  */
     display: flex;
-    flex-wrap: nowrap;
+    // flex-wrap: nowrap;
     flex-direction: @direction;
     justify-content: @justify-content;
     align-items: @align-items;
@@ -66,16 +66,16 @@ a {
     background-color: @red;
     padding-left: @horizontal-padding;
 
-    .flex(row-reverse, flex-start, center);
+    .flex(row, flex-end, center);
 }
 
 .header__item {
-    margin-left: @spacing-lg;
+    margin-right: @spacing-lg;
     color: #fff;
 }
 
 .header__item:last-child {
-    margin-left: 0;
+    margin-right: 0;
 }
 
 .header__item--register {
@@ -166,14 +166,72 @@ a {
 .card {
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, .3) 0 1px 5px;
-    padding: @spacing-xs @spacing-lg;
+    padding: @spacing @spacing-lg;
 }
 
 .course-card {
     width: 50%;
-    margin-bottom: @spacing;
+    margin-bottom: @section-padding-left;
+    .flex(column, space-between);
+}
+
+.course-card__title-container {
+    position: relative;
+}
+
+.course-card__title__tag {
+    position: absolute;
+    right: 0;
+    top: -7px;
+}
+
+.course-card__actions { 
+    .flex(row, flex-end);
+}
+
+.course-card__actions__subscribe {
+    color: green;
 }
 
 .section-course__content {
     .flex(row, space-between);
+    flex-wrap: wrap;
+}
+
+.section-course__content__item {
+    width: calc(50% - (@section-padding-left / 2));
+}
+
+.section-professors__content {
+    .flex(row, center);
+    flex-wrap: wrap;
+}
+
+.professor-card {
+    width: 25%;
+}
+
+.professor-card__picture {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.professor-card__content {
+    text-align: center;
+    margin-bottom: @spacing;
+}
+
+.professor-card__content__name {
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: @spacing;
+}
+
+.professor-card__actions {
+    button {
+        width: 100%;
+    }
 }

@@ -9,7 +9,6 @@ button {
   border-radius: 2px;
 
   color: #fff;
-  background-color: @default;
 
   font-size: 14px;
   font-weight: 550;
@@ -23,10 +22,6 @@ button:hover {
   box-shadow: rgba(0, 0, 0, .3) 0 1px 5px;
 }
 
-button:active {
-  box-shadow: none;
-}
-
 .button--primary {
   background-color: @blue;
   min-width: 200px;
@@ -34,4 +29,14 @@ button:active {
 
 .button--secondary {
   background-color: @brown;
+}
+
+.button--default {
+  background-color: @default;
+}
+
+.button--transparent {
+  background-color: rgba(0, 0, 0, .0);
+  font-weight: 600;
+  color: @blue;
 }

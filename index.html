@@ -5,9 +5,10 @@
     <meta charset="UTF-8">
 
     <!-- style imports -->
-    <link rel="stylesheet/less" type="text/css" href="src/less/index.less" />
     <link rel="stylesheet/less" type="text/css" href="src/less/button.less" />
-
+    <link rel="stylesheet/less" type="text/css" href="src/less/tag.less" />
+    <link rel="stylesheet/less" type="text/css" href="src/less/index.less" />
+    
     <!-- script imports -->
     <script src="src/scripts/less.min.js"></script>
 
@@ -16,13 +17,13 @@
 
   <body>
     <nav class="header">
-      <button class="button--primary header__item header__item--register">Inscrever-me</button>
       <a class="header__item" href="#como-funciona">Como funciona</a>
       <a class="header__item" href="#sobre">Sobre a extensão</a>
       <a class="header__item" href="#cursos">Cursos</a>
-      <a class="header__item" href="#professores">Professores</a>
+      <a class="header__item" href="#docentes">Docentes</a>
       <a class="header__item" href="#realizacao">Realização</a>
       <a class="header__item" href="#apoio">Apoio</a>
+      <button class="button--primary header__item header__item--register">Inscrever-me</button>
     </nav>
 
     <div class="main-container">
@@ -31,9 +32,7 @@
           <img class="intro__section__content__logo" src="src/assets/images/logo.png" />
 
           <span class="section-intro__content__text">
-            Venha fazer Especelização em Investigação Ambiental na Universidade estadual de Campinas
-            <br /><br />
-            8 cursos que podem ser flexivelmente somando o total da extensão
+            Um total de 8 cursos de Extensão com 45 horas cada um. Ao terminá-los você conclui o curso de Especialização de 360 horas.
           </span>
         </div>
         <div class="section-intro__actions">
@@ -82,10 +81,11 @@
           Sobre a extensão
         </h2>
         <p class="section-about__text">
-          Ao longo de cada um dos cursos  a teoria é acomapanhada de aulas em laboratório e em campo.
-          O curso é ministrado por Professores Doutores especialistas e, com o apoio de instituições parceiras,
-          os alunos têm acesso a equipamento de ponta e profissionais experientes atuantes na área.
-          Todas as aulas ocorrem aos sábados na Universidade Estadual de Campinas.
+          Todos os cursos de Extensão têm 45 horas distribuídas em aulas teóricas e práticas.
+          As aulas teóricas são realizadas em salas de aula convencionais, usando equipamentos multimídias.
+          As aulas práticas são desenvolvidas em laboratório (informática ou específico) e/ou no campo experimental.
+          Todas as aulas são ministradas aos sábados pela manhã e tarde dentro do campus da Unicamp em Campinas-SP.
+          Cada curso de Extensão será oferecido em 8 sábados, com datas a serem divulgadas previamente.
         </p>
       </section>
 
@@ -93,26 +93,192 @@
         <h2 class="section__title">
           Cursos
         </h2>
+
         <div class="section-course__content">
-          <div class="card course-card">
-            <h3 class="course-card__title">
-              FEC1071 - Fundamentos em Geociências
-            </h3>
-            <p class="course-card__description">
-              Conceitos básicos de Geologia Geral, Química Ambiental e Geoquímica,
-              de modo que possam dar sequência aos demais conteúdos pertinentes a Investigação Geoambiental.
-            </p>
+          <!-- FEC 1071-->
+          <div class="card course-card section-course__content__item">
+            <div>
+              <div class="course-card__title-container">
+                <h3 class="course-card__title">FEC1071 - Fundamentos em Geociências</h3>
+                <div class="tag course-card__title__tag">Inscrições abertas</div>
+              </div>
+              
+              <p class="course-card__description">
+                Conceitos básicos de Geologia Geral, Química Ambiental e Geoquímica,
+                de modo que possam dar sequência aos demais conteúdos pertinentes a Investigação Geoambiental.
+              </p>
+            </div>
+            <div class="course-card__actions">
+              <button class="button--transparent">
+                Ementa e Docentes do curso
+              </button>
+              <button class="button--transparent course-card__actions__subscribe">
+                Inscrever-me
+              </button>
+            </div>
           </div>
 
-          <div class="card course-card">
-            <h3 class="course-card__title">
-              FEC1072 - Geotecnia e Meio Ambiente
-            </h3>
-            <p class="course-card__description">
-              Principais aplicações da Geotecnia em problemas ambientais, buscando a atualização de conceitos e de técnicas e o questionamento das soluções empregadas,
-              dentro da perspectiva científica. Além disso, o curso permite ao aluno realizar práticas de laboratório para fins de obtenção de parâmetros físicos e
-              geotécnicos de solos.
-            </p>
+          <!-- FEC1072 -->
+          <div class="card course-card section-course__content__item">
+            <div>
+              <div class="course-card__title-container">
+                <h3 class="course-card__title">FEC1072 - Geotecnia e Meio Ambiente</h3>
+                <div class="tag course-card__title__tag">Inscrições abertas</div>
+              </div>
+              <p class="course-card__description">
+                Principais aplicações da Geotecnia em problemas ambientais, buscando a atualização de conceitos e de técnicas e o questionamento das soluções empregadas,
+                dentro da perspectiva científica. Além disso, o curso permite ao aluno realizar práticas de laboratório para fins de obtenção de parâmetros físicos e
+                geotécnicos de solos.
+              </p>
+            </div>
+            <div class="course-card__actions">
+              <button class="button--transparent">
+                Ementa e Docentes do curso
+              </button>
+              <button class="button--transparent course-card__actions__subscribe">
+                Inscrever-me
+              </button>
+            </div>
+          </div>
+
+          <!-- FEC1073 -->
+          <div class="card course-card section-course__content__item">
+            <div>
+              <h3 class="course-card__title">
+                FEC1073 - Hidrologia e Meio ambiente
+              </h3>
+              <p class="course-card__description">
+                  A disciplina visa apresentar os fundamentos da dinâmica das águas subterrâneas, hidroquímica e qualidade.
+                  Os objetivos, tipos e aspectos construtivos de poços de monitoramento e procedimentos e
+                  técnicas de instalação de redes de poços serão apresentados neste modulo. Em estudos de áreas contaminadas,
+                  os conceitos básicos de transporte de massa serão apresentados, visando fazer com que o aluno adquira o conhecimento hidrogeológico e do comportamento dos contaminantes inorgânicos e orgânicos, com aplicação prática e exercícios.
+              </p>
+            </div>
+            <div class="course-card__actions">
+              <button class="button--transparent">
+                Ementa e Docentes do curso
+              </button>
+            </div>
+          </div>
+
+          <!-- FEC1074 -->
+          <div class="card course-card section-course__content__item">
+            <div>
+              <h3 class="course-card__title">
+                FEC1074 - Gerenciamento Ambiental
+              </h3>
+              <p class="course-card__description">
+                  O curso tem como objetivo geral apresentar aos alunos os conceitos básicos sobre o gerenciamento ambiental,
+                  com enfoque para a questão de áreas contaminadas, compreendendo desde a legislação básica,]
+                  até os procedimentos específicos adotados em cada etapa dos processos,
+                  como os de identificação e de reabilitação de áreas contaminadas, bem como o desenvolvimento de um plano de intervenção.
+              </p>
+            </div>
+            <div class="course-card__actions">
+              <button class="button--transparent">
+                Ementa e Docentes do curso
+              </button>
+            </div>
+          </div>
+
+          <!-- FEC1075 -->
+          <div class="card course-card section-course__content__item">
+            <div>
+              <h3 class="course-card__title">
+                FEC1075 - Ensaios Geofísicos
+              </h3>
+              <p class="course-card__description">
+                  Apresentar o potencial de aplicabilidade dos métodos geofísicos na investigação geoambiental.
+                  O curso objetiva proporcionar ao aluno uma visão da utilização de métodos geofísicos em estudos
+                  de contaminação de solos e águas subterrâneas.
+              </p>
+            </div>
+            <div class="course-card__actions">
+              <button class="button--transparent">
+                Ementa e Docentes do curso
+              </button>
+            </div>
+          </div>
+
+          <!-- FEC1076 -->
+          <div class="card course-card section-course__content__item">
+            <div>
+              <h3 class="course-card__title">
+                FEC1076 - Ensaios Geotá(?)cnicos de Campo
+              </h3>
+              <p class="course-card__description">
+                  O curso tem como objetivo o de apresentar e discutir ensaios geotécnicos de campo de interesse
+                  às investigações geotécnica e geoambiental.
+              </p>
+            </div>
+            <div class="course-card__actions">
+              <button class="button--transparent">
+                Ementa e Docentes do curso
+              </button>
+            </div>
+          </div>
+
+          <!-- FEC1077 -->
+          <div class="card course-card section-course__content__item">
+            <div>
+              <h3 class="course-card__title">
+                FEC1077 - Amostragem de solo, Água subterrânea e Vapores
+              </h3>
+              <p class="course-card__description">
+                  O curso tem como objetivo o de apresentar e discutir ensaios geotécnicos de campo de interesse
+                  às investigações geotécnica e geoambiental.
+              </p>
+            </div>
+            <div class="course-card__actions">
+              <button class="button--transparent">
+                Ementa e Docentes do curso
+              </button>
+            </div>
+          </div>
+
+          <!-- FEC1078 -->
+          <div class="card course-card section-course__content__item">
+            <div>
+              <h3 class="course-card__title">
+                FEC1078 - Consolidação da Investigação Geoambiental
+              </h3>
+              <p class="course-card__description">
+                  O curso tem o objetivo de apresentar aos alunos o potencial de aplicabilidade dos métodos geoestatísticos na investigação geoambiental.
+                  Além disso, o curso pretende introduzir os alunos à Modelagem Matemática de Fluxo e Transporte em sistemas de águas subterrâneas,
+                  por meio de modelos analíticos e numéricos. Após esse conteúdo, os alunos terão condições de apresentar, em forma de seminários gerais,
+                  um modelo final de uma investigação geoambiental.
+              </p>
+            </div>
+            <div class="course-card__actions">
+              <button class="button--transparent">
+                Ementa e Docentes do curso
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section-professors">
+        <h2 class="section__title">Docentes</h2>
+        <div class="section-professors__content">
+          <div class="card professor-card">
+            <div class="professor-card__picture">
+              
+            </div>
+            <div class="professor-card__content">
+                <p class="professor-card__content__name">
+                  Profª Drª
+                  <br />
+                  Miriam Gonçalves Miguel
+                </p>
+                <span>FEC - Unicamp</span>
+            </div>
+  
+            <div class="professor-card__actions">
+              <button class="button--transparent">
+                Currículo Lattes
+              </button>
+            </div>
           </div>
         </div>
       </section>
