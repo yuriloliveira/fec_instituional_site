@@ -203,12 +203,17 @@ a {
 }
 
 .section-professors__content {
-    .flex(row, center);
+    .flex(row, space-between);
     flex-wrap: wrap;
 }
 
 .professor-card {
-    width: 25%;
+    width: calc(25% - @spacing-md);
+    margin-bottom: @spacing-md;
+}
+
+.professor-card--coordination {
+    margin: 0 auto;
 }
 
 .professor-card__picture {
@@ -234,4 +239,12 @@ a {
     button {
         width: 100%;
     }
+}
+
+.section__logo-container {
+    .flex(row, space-between);
+}
+
+.section__logo {
+    height: 125px;
 }
