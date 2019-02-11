@@ -1,0 +1,21 @@
+@import "layout";
+
+.breadcrumb {
+  margin: @spacing 0;
+
+  >a {
+    color: inherit;
+  }
+
+  >*:last-child {
+    margin: 0;
+  }
+}
+.breadcrumb__item, .breadcrumb__delimiter {
+  margin-right: @spacing;
+  display: inline-block;
+}
+
+.breadcrumb__delimiter {
+  color: #000;
+}

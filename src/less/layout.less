@@ -1,0 +1,39 @@
+/* variables */
+@spacing-xs: 5px;
+@spacing-sm: 10px;
+@spacing: @spacing-sm; // default spacing
+@spacing-md: 20px;
+@spacing-lg: 30px;
+@spacing-xl: 50px;
+
+@section-padding-top: 0;
+@section-padding-left: 36px;
+@section-padding: @section-padding-top @section-padding-left;
+
+@horizontal-padding: @spacing-md;
+
+/* mixins */
+.flex(@direction, @justify-content, @align-items) { /* This is a less css mixin  */
+  display: flex;
+  // flex-wrap: nowrap;
+  flex-direction: @direction;
+  justify-content: @justify-content;
+  align-items: @align-items;
+}
+
+.flex(@direction, @justify-content) {
+  .flex(@direction, @justify-content, stretch); /* stretch is the default value for align-items property */
+}
+
+.flex(@direction) {
+  .flex(@direction, flex-start)
+}
+
+.no-select() {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}

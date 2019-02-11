@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- -->
 <html>
   <head>
     <meta charset="UTF-8">
@@ -18,8 +17,8 @@
   <body>
     <nav class="header">
       <a class="header__item" href="#como-funciona">Como funciona</a>
-      <a class="header__item" href="#sobre">Sobre a extensão</a>
-      <a class="header__item" href="#cursos">Cursos</a>
+      <a class="header__item" href="#sobre">Sobre os cursos de extensão</a>
+      <a class="header__item" href="#cursos">Cursos de extensão</a>
       <a class="header__item" href="#docentes">Docentes</a>
       <a class="header__item" href="#realizacao">Realização</a>
       <a class="header__item" href="#apoio">Apoio</a>
@@ -36,9 +35,11 @@
           </span>
         </div>
         <div class="section-intro__actions">
-          <button class="button--secondary section-intro__actions__action">
-            Conhecer a extensão
-          </button>
+          <a href="#como-funciona">
+            <button class="button--secondary section-intro__actions__action">
+              Conhecer a extensão
+            </button>
+          </a>
           <button class="button--primary section-intro__actions__action">
             Quero me inscrever
           </button>
@@ -78,7 +79,7 @@
       </section>
       <section id="sobre" class="section-about">
         <h2 class="section__title">
-          Sobre a extensão
+          Sobre os cursos de extensão
         </h2>
         <p class="section-about__text">
           Todos os cursos de Extensão têm 45 horas distribuídas em aulas teóricas e práticas.
@@ -91,7 +92,7 @@
 
       <section id="cursos" class="section-course">
         <h2 class="section__title">
-          Cursos
+          Cursos de extensão
         </h2>
 
         <div class="section-course__content">
@@ -258,7 +259,7 @@
         </div>
       </section>
 
-      <section class="section-professors">
+      <section id="docentes" class="section-professors">
         <h2 class="section__title">Docentes</h2>
 
         <h3 class="section__title">Coordenação</h3>
@@ -376,89 +377,126 @@
         </div>
       </section>
 
-      <section class="section-realization">
+      <section id="realizacao" class="section-realization">
         <h2 class="section__title">Realização</h2>
         
         <div class="section__logo-container">
           <div class="section__logo">
-            <img
-              class="section__logo__image"
-              src="src/assets/images/unicamp-logo.png"
-            />
+            <a href="http://www.unicamp.br/" target="_blank">
+              <img
+                class="section__logo__image"
+                src="src/assets/images/unicamp-logo.png"
+              />
+            </a>
           </div>
           <div class="section__logo section__logo--sm">
-            <img
-              class="section__logo__image"
-              src="src/assets/images/extecamp-logo.png"
-            />
+            <a href="https://extecamp.unicamp.br/" target="_blank">
+              <img
+                class="section__logo__image"
+                src="src/assets/images/extecamp-logo.png"
+              />
+            </a>
           </div>
           <div class="section__logo">
-            <img
-              class="section__logo__image"
-              src="src/assets/images/fec-logo.png"
-            />
+            <a href="https://www.fec.unicamp.br/" target="_blank">
+              <img
+                class="section__logo__image"
+                src="src/assets/images/fec-logo.png"
+              />
+            </a>
           </div>
         </div>
       </section>
 
-      <section>
+      <section id="apoio">
         <h2 class="section__title">Apoio</h2>
 
         <div class="section__logo-container">
           <div class="section__logo">
-            <img
-              class="section__logo__image"
-              src="src/assets/images/ecd-logo.png"
-            />
+            <a href="http://www.ecdambiental.com.br/" target="_blank">
+              <img
+                class="section__logo__image"
+                src="src/assets/images/ecd-logo.png"
+              />
+            </a>
           </div>
           <div class="section__logo">
-            <img
-              class="section__logo__image"
-              src="src/assets/images/ig-logo.png"
-            />
+            <a href="https://portal.ige.unicamp.br/" target="_blank">
+              <img
+                class="section__logo__image"
+                src="src/assets/images/ig-logo.png"
+              />
+            </a>
           </div>
           <div class="section__logo section__logo--sm">
-            <img
-              class="section__logo__image"
-              src="src/assets/images/clean-logo.png"
-            />
+            <a href="https://www.clean.com.br/" target="_blank">
+              <img
+                class="section__logo__image"
+                src="src/assets/images/clean-logo.png"
+              />
+            </a>
           </div>
         </div>
         <div class="section__logo-container">
           <div class="section__logo section__logo--lg">
-            <img
-              class="section__logo__image"
-              src="src/assets/images/damasco-logo.png"
-            />
+            <a href="http://www.damascopenna.com.br/" target="_blank">
+              <img
+                class="section__logo__image"
+                src="src/assets/images/damasco-logo.png"
+              />
+            </a>
           </div>
           <div class="section__logo section__logo--sm">
-            <img
-              class="section__logo__image"
-              src="src/assets/images/engesolos-logo.png"
-            />
+            <a href="" target="_blank">
+              Ajustar este LINK!
+              <img
+                class="section__logo__image"
+                src="src/assets/images/engesolos-logo.png"
+              />
+            </a>
           </div>
           <div class="section__logo">
-            <img
-              class="section__logo__image"
-              src="src/assets/images/isr-logo.png"
-            />
+            <a href="http://www.insituremediation.com.br/" target="_blank">
+              <img
+                class="section__logo__image"
+                src="src/assets/images/isr-logo.png"
+              />
+            </a>
+            
           </div>
         </div>
       </section>
 
       <section class="footer">
-        <span>Informações:</span>
         <div class="footer__info">
-            Coordenadoria de
-            Extensão e Eventos/FEC
-            <br /><br />
-            Av. Saturnino de Brito, 224
-            Cx Postal 6143 | Campinas - SP
-            CEP 13083-889
-            <br /><br />
-            (19) 3521-2308
-            <br /><br />
-            www.extecamp.unicamp.br
+          <span>Informações:</span>
+          <div>
+              Coordenadoria de
+              Extensão e Eventos/FEC
+              <br /><br />
+              Av. Saturnino de Brito, 224
+              <br />
+              Cx Postal 6143 | Campinas - SP
+              CEP 13083-889
+              <br /><br />
+              (19) 3521-2308
+              <br /><br />
+              <a href="https://www.extecamp.unicamp.br" target="_blank">
+                www.extecamp.unicamp.br
+              </a>
+          </div>
+        </div>
+
+        <!-- <div class="vertical-delimiter"></div> -->
+        
+        <div class="footer__links">
+          <a href="">Inscrever-me</a>
+          <a href="#como-funciona">Como funciona</a>
+          <a href="#sobre">Sobre os cursos de extensão</a>
+          <a href="#cursos">Cursos de extensão</a>
+          <a href="#docentes">Docentes</a>
+          <a href="#realizacao">Realização</a>
+          <a href="#apoio">Apoio</a>
         </div>
       </section>
     </div>

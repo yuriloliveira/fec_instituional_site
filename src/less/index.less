@@ -1,57 +1,10 @@
 /* Used BEM naming conventions for class names
     read it at www.getbem.com/naming */
-
+@import "normalize";
 @import "colors";
-
-/* variables */
-@spacing-xs: 5px;
-@spacing-sm: 10px;
-@spacing: @spacing-sm; // default spacing
-@spacing-md: 20px;
-@spacing-lg: 30px;
-@spacing-xl: 50px;
-
-@section-padding-top: 0;
-@section-padding-left: 36px;
-@section-padding: @section-padding-top @section-padding-left;
-
-@horizontal-padding: @spacing-md; 
-
-/* mixins */
-.flex(@direction, @justify-content, @align-items) { /* This is a less css mixin  */
-    display: flex;
-    // flex-wrap: nowrap;
-    flex-direction: @direction;
-    justify-content: @justify-content;
-    align-items: @align-items;
-}
-
-.flex(@direction, @justify-content) {
-    .flex(@direction, @justify-content, stretch); /* stretch is the default value for align-items property */
-}
-
-.flex(@direction) {
-    .flex(@direction, flex-start)
-}
+@import "layout";
 
 /* style */
-* {
-    /* border-box makes padding count as width of element */
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-body {
-    padding: 0;
-    margin: 0;
-}
-
-a {
-    text-decoration: none;
-}
 
 .header {
     width: 100%;
@@ -274,10 +227,33 @@ a {
     background-color: @red;
     color: #fff;
 
-    .flex(row, flex-start)
+    .flex(row, space-between);
+
+    padding: @spacing-lg @section-padding-left !important;
+    margin-bottom: 0 !important;
+    
+    a {
+        color: inherit;
+    }
 }
 
+@footer-div-width: 50%;
+
 .footer__info {
-    width: 300px;
+    width: @footer-div-width;
     margin-left: @spacing;
+    border-right: 1px solid #fff;
+
+    .flex(row, flex-start);
+
+    span {
+        margin-right: @spacing;
+    }
+}
+
+.footer__links {
+    width: @footer-div-width;
+    text-align: center;
+
+    .flex(column, space-between, center);
 }
