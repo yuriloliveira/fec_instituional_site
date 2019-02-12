@@ -13,17 +13,16 @@
   position: absolute;
   top: -50%;
   z-index: 1;
-  
-  opacity: 0;
-  transition: opacity .3s ease-out;
+
+  display: none;
 }
 
 .dropdown-menu:hover .dropdown-menu__dropdown {
-  opacity: 1;
+  display: block;
 }
 
 .dropdown-menu__dropdown__item {
-  padding: @spacing/2 @spacing;
+  padding: @spacing*1.25 @spacing;
   color: #fff;
 
   >* {

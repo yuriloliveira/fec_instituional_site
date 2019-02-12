@@ -1,0 +1,32 @@
+@import 'layout';
+@import 'colors';
+
+.header {
+  width: 100%;
+  height: 50px;
+
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 2;
+
+  background-color: @red;
+  padding-left: @horizontal-padding;
+
+  .flex(row, flex-end, center);
+}
+
+.header__item {
+  margin-right: @spacing-lg;
+  color: #fff;
+}
+
+.header__item:last-child {
+  margin-right: 0;
+}
+
+.header__item--register {
+  height: 100%;
+}
