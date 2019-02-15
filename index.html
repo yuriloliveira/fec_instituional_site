@@ -23,7 +23,9 @@
       <a class="header__item" href="#docentes">Docentes</a>
       <a class="header__item" href="#realizacao">Realização</a>
       <a class="header__item" href="#apoio">Apoio</a>
-      <button class="button--primary header__item header__item--register">Inscrever-me</button>
+      <a class=" header__item header__item--register" href="#cursos">
+        <button class="button--primary">Inscrever-me</button>
+      </a>
     </nav>
 
     <div class="main-container">
@@ -31,19 +33,33 @@
         <div class="section-intro__content">
           <img class="intro__section__content__logo" src="src/assets/images/logo.png" />
 
-          <span class="section-intro__content__text">
-            Um total de 8 cursos de Extensão com 45 horas cada um. Ao terminá-los você conclui o curso de Especialização de 360 horas.
-          </span>
+          <div class="section-intro__content__text">
+            <h1 class="section-intro__content__text__title">
+              Especialização divida em 8 cursos de extensão.
+            </h1>
+            
+            <br />
+
+            <span>
+              Num total de 360 horas (8 cursos de 45 horas), a especialização permite que o
+              aluno entre em contato direto com a Investigação Ambiental.
+              <br /><br />
+              A teoria é acomapanhada de aulas práticas em laboratório e em campo, sempre acompanhadas por Professores Doutores
+              e Profissionais atuantes no mercado.
+            </span>
+          </div>
         </div>
         <div class="section-intro__actions">
-          <a href="#como-funciona">
-            <button class="button--secondary section-intro__actions__action">
-              Conhecer a extensão
+          <a href="#como-funciona" class="section-intro__actions__action">
+            <button class="button--secondary">
+              Conhecer a especialização
             </button>
           </a>
-          <button class="button--primary section-intro__actions__action">
-            Quero me inscrever
-          </button>
+          <a href="#cursos" class="section-intro__actions__action">
+            <button class="button--primary">
+              Quero me inscrever
+            </button>
+          </a>
         </div>
       </section> <!-- intro section -->
 
@@ -54,26 +70,34 @@
         <div class="section-how__content">
           <div class="section-how__content__card">
             <h3 class="section-how__content__card__title">
-              8 cursos
+                8 cursos
             </h3>
             <span class="section-how__content__card__description">
-              relacionados a Investigação Ambiental
+                de extensão, que são as disciplinas da especialização, de 45 horas cada.
+                O aluno se matricula nos cursos de extensão conforme o seu planejamento.
+                Não há necessidade de se matricular em todos os cursos de uma vez só.
+                O aluno só vai se matricular na Especialização quando concluir as 8 disciplinas. 
             </span>
           </div>
           <div class="section-how__content__card">
               <h3 class="section-how__content__card__title">
-                Flexíveis
+                Flexíveis.
               </h3>
               <span class="section-how__content__card__description">
-                Você pode fazer até 3 cursos de sua preferência sem se inscrever na extensão completa
+                Caso haja interesse em realizar os cursos de extensão isoladamente,
+                serão permitidas inscrições em até 3 cursos por aluno.
+                Todos os cursos de extensão são obrigatórios para a conclusão da especialização completa.
+                O curso FEC1071 é o único pré-requisito para os demais cursos.
               </span>
             </div>
             <div class="section-how__content__card">
               <h3 class="section-how__content__card__title">
-                Certificados
+                Certificados.
               </h3>
               <span class="section-how__content__card__description">
-                Os cursos e extensão completa possuem certificados próprios
+                Será emitido o certificado de cada curso de extensão concluído isoladamente.
+                O certificado de especialização será emitido para os alunos que concluírem os
+                8 cursos de extensão fizerem a inscrição na especialização.
               </span>
             </div>
         </div>
@@ -102,7 +126,9 @@
             <div>
               <div class="course-card__title-container">
                 <h3 class="course-card__title">FEC1071 - Fundamentos em Geociências</h3>
-                <div class="tag course-card__title__tag">Inscrições abertas</div>
+                <a href="https://www.extecamp.unicamp.br/dados.asp?sigla=%81g%DA%C2%5F%E2%DA%9F&of=%F7%12%AA" target="_blank">
+                  <div class="tag course-card__title__tag">Inscrições abertas</div>
+                </a>
               </div>
               
               <p class="course-card__description">
@@ -111,14 +137,19 @@
               </p>
             </div>
             <div class="course-card__actions">
-              <a href="/cursos/fec1071.html">
+              <a href="/cursos/fec1071.html" target="_blank">
                 <button class="button--transparent">
                   Ementa e Docentes do curso
                 </button>
               </a>
-              <button class="button--transparent course-card__actions__subscribe">
-                Inscrever-me
-              </button>
+              <a
+                href="https://www.extecamp.unicamp.br/dados.asp?sigla=%81g%DA%C2%5F%E2%DA%9F&of=%F7%12%AA"
+                target="_blank"
+              >
+                <button class="button--transparent course-card__actions__subscribe">
+                  Inscrever-me
+                </button>
+              </a>
             </div>
           </div>
 
@@ -127,7 +158,9 @@
             <div>
               <div class="course-card__title-container">
                 <h3 class="course-card__title">FEC1072 - Geotecnia e Meio Ambiente</h3>
-                <div class="tag course-card__title__tag">Inscrições abertas</div>
+                <a href="https://www.extecamp.unicamp.br/dados.asp?sigla=%81g%DA%C2%5F%E2%DA%9C&of=%F7%12%AB" target="_blank">
+                  <div class="tag course-card__title__tag">Inscrições abertas</div>
+                </a>
               </div>
               <p class="course-card__description">
                 Principais aplicações da Geotecnia em problemas ambientais, buscando a atualização de conceitos e de técnicas e o questionamento das soluções empregadas,
@@ -136,14 +169,19 @@
               </p>
             </div>
             <div class="course-card__actions">
-              <a href="/cursos/fec1072.html">
+              <a href="/cursos/fec1072.html" target="_blank">
                 <button class="button--transparent">
                   Ementa e Docentes do curso
                 </button>
               </a>
-              <button class="button--transparent course-card__actions__subscribe">
-                Inscrever-me
-              </button>
+              <a
+                href="https://www.extecamp.unicamp.br/dados.asp?sigla=%81g%DA%C2%5F%E2%DA%9C&of=%F7%12%AB"
+                target="_blank"
+              >
+                <button class="button--transparent course-card__actions__subscribe">
+                  Inscrever-me
+                </button>
+              </a>
             </div>
           </div>
 
@@ -154,14 +192,15 @@
                 FEC1073 - Hidrologia e Meio ambiente
               </h3>
               <p class="course-card__description">
-                  A disciplina visa apresentar os fundamentos da dinâmica das águas subterrâneas, hidroquímica e qualidade.
+                  Fundamentos da dinâmica das águas subterrâneas, hidroquímica e qualidade.
                   Os objetivos, tipos e aspectos construtivos de poços de monitoramento e procedimentos e
                   técnicas de instalação de redes de poços serão apresentados neste modulo. Em estudos de áreas contaminadas,
-                  os conceitos básicos de transporte de massa serão apresentados, visando fazer com que o aluno adquira o conhecimento hidrogeológico e do comportamento dos contaminantes inorgânicos e orgânicos, com aplicação prática e exercícios.
+                  os conceitos básicos de transporte de massa serão apresentados, visando fazer com que o aluno adquira o conhecimento hidrogeológico e
+                  do comportamento dos contaminantes inorgânicos e orgânicos, com aplicação prática e exercícios.
               </p>
             </div>
             <div class="course-card__actions">
-              <a href="/cursos/fec1073.html">
+              <a href="/cursos/fec1073.html" target="_blank">
                 <button class="button--transparent">
                   Ementa e Docentes do curso
                 </button>
@@ -176,14 +215,13 @@
                 FEC1074 - Gerenciamento Ambiental
               </h3>
               <p class="course-card__description">
-                  O curso tem como objetivo geral apresentar aos alunos os conceitos básicos sobre o gerenciamento ambiental,
-                  com enfoque para a questão de áreas contaminadas, compreendendo desde a legislação básica,]
-                  até os procedimentos específicos adotados em cada etapa dos processos,
-                  como os de identificação e de reabilitação de áreas contaminadas, bem como o desenvolvimento de um plano de intervenção.
+                Conceitos básicos sobre o gerenciamento ambiental, com enfoque para a questão de áreas contaminadas,
+                compreendendo desde a legislação básica, até os procedimentos específicos adotados em cada etapa dos processos,
+                como os de identificação e de reabilitação de áreas contaminadas, bem como o desenvolvimento de um plano de intervenção.
               </p>
             </div>
             <div class="course-card__actions">
-              <a href="/cursos/fec1074.html">
+              <a href="/cursos/fec1074.html" target="_blank">
                 <button class="button--transparent">
                   Ementa e Docentes do curso
                 </button>
@@ -198,13 +236,13 @@
                 FEC1075 - Ensaios Geofísicos
               </h3>
               <p class="course-card__description">
-                  Apresentar o potencial de aplicabilidade dos métodos geofísicos na investigação geoambiental.
+                  Potencial de aplicabilidade dos métodos geofísicos na investigação geoambiental.
                   O curso objetiva proporcionar ao aluno uma visão da utilização de métodos geofísicos em estudos
                   de contaminação de solos e águas subterrâneas.
               </p>
             </div>
             <div class="course-card__actions">
-              <a href="/cursos/fec1075.html">
+              <a href="/cursos/fec1075.html" target="_blank">
                 <button class="button--transparent">
                   Ementa e Docentes do curso
                 </button>
@@ -216,15 +254,14 @@
           <div class="card course-card section-course__content__item">
             <div>
               <h3 class="course-card__title">
-                FEC1076 - Ensaios Geotá(?)cnicos de Campo
+                FEC1076 - Ensaios Geotécnicos de Campo
               </h3>
               <p class="course-card__description">
-                  O curso tem como objetivo o de apresentar e discutir ensaios geotécnicos de campo de interesse
-                  às investigações geotécnica e geoambiental.
+                  Ensaios geotécnicos de campo de interesse às investigações geotécnica e geoambiental.
               </p>
             </div>
             <div class="course-card__actions">
-              <a href="/cursos/fec1076.html">
+              <a href="/cursos/fec1076.html" target="_blank">
                 <button class="button--transparent">
                   Ementa e Docentes do curso
                 </button>
@@ -239,12 +276,15 @@
                 FEC1077 - Amostragem de solo, Água subterrânea e Vapores
               </h3>
               <p class="course-card__description">
-                  O curso tem como objetivo o de apresentar e discutir ensaios geotécnicos de campo de interesse
-                  às investigações geotécnica e geoambiental.
+                Técnicas de amostragem de solos contaminados por compostos orgânicos e inorgânicos, técnicas de alta resolução (MIP, UVOST, Waterloo Profiler),
+                conhecimentos sobre a hidráulica de poços de monitoramento, técnicas de amostragem de águas
+                subterrâneas e procedimentos auxiliares de campo, particionamento de contaminantes orgânicos voláteis
+                para a fase de vapores, técnicas de amostragem de vapores em campo e técnicas de mitigação para
+                intrusão de vapores.  
               </p>
             </div>
             <div class="course-card__actions">
-              <a href="/cursos/fec1077.html">
+              <a href="/cursos/fec1077.html" target="_blank">
                 <button class="button--transparent">
                   Ementa e Docentes do curso
                 </button>
@@ -259,14 +299,14 @@
                 FEC1078 - Consolidação da Investigação Geoambiental
               </h3>
               <p class="course-card__description">
-                  O curso tem o objetivo de apresentar aos alunos o potencial de aplicabilidade dos métodos geoestatísticos na investigação geoambiental.
-                  Além disso, o curso pretende introduzir os alunos à Modelagem Matemática de Fluxo e Transporte em sistemas de águas subterrâneas,
-                  por meio de modelos analíticos e numéricos. Após esse conteúdo, os alunos terão condições de apresentar, em forma de seminários gerais,
+                  Potencial de aplicabilidade dos métodos geoestatísticos na investigação geoambiental;
+                  Modelagem Matemática de Fluxo e Transporte em sistemas de águas subterrâneas,
+                  por meio de modelos analíticos e numéricos. Apresentação, em forma de seminários gerais,
                   um modelo final de uma investigação geoambiental.
               </p>
             </div>
             <div class="course-card__actions">
-              <a href="/cursos/fec1078.html">
+              <a href="/cursos/fec1078.html" target="_blank">
                 <button class="button--transparent">
                   Ementa e Docentes do curso
                 </button>
@@ -279,7 +319,8 @@
       <section id="docentes" class="section-professors">
         <h2 class="section__title">Docentes</h2>
 
-        <h3 class="section__title">Coordenação</h3>
+        <h3 class="section-professors__subtitle">Coordenação</h3>
+        <!--
         <div class="card professor-card professor-card--coordination">
           <div class="professor-card__picture">
             
@@ -319,79 +360,314 @@
               </button>
             </div>
           </div>
-
-          <div class="card professor-card">
-            <div class="professor-card__picture"></div>
-            <div class="professor-card__content">
-                <p class="professor-card__content__name">
-                  Prof. Dr.
-                  <br />
-                  José Roberto Guimarães
-                </p>
-                <span>FEC - Unicamp</span>
-            </div>
-  
-            <div class="professor-card__actions">
+        </div>
+      -->
+        <!-- <div class="section-professors__list">
+          <div class="section-professors__list__item">
+            <span>
+              Prof.ª Dr.ª Miriam Gonçalves Miguel (FEC/Unicamp)
+            </span>
+            <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4796905A8" target="_blank">
               <button class="button--transparent">
                 Currículo Lattes
               </button>
-            </div>
+            </a>
           </div>
-
-          <div class="card professor-card">
-            <div class="professor-card__picture"></div>
-            <div class="professor-card__content">
-                <p class="professor-card__content__name">
-                  Prof.ª Dr.ª
-                  <br />
-                  Jacinta Enzweiler
-                </p>
-                <span>IG - Unicamp</span>
-            </div>
-  
-            <div class="professor-card__actions">
-              <button class="button--transparent">
-                Currículo Lattes
-              </button>
-            </div>
-          </div>
-
-          <div class="card professor-card">
-            <div class="professor-card__picture"></div>
-            <div class="professor-card__content">
-                <p class="professor-card__content__name">
-                  Prof.ª Dr.ª
-                  <br />
-                  Jacinta Enzweiler
-                </p>
-                <span>IG - Unicamp</span>
-            </div>
-  
-            <div class="professor-card__actions">
-              <button class="button--transparent">
-                Currículo Lattes
-              </button>
-            </div>
-          </div>
-
-          <div class="card professor-card">
-            <div class="professor-card__picture"></div>
-            <div class="professor-card__content">
-                <p class="professor-card__content__name">
-                  Prof.ª Dr.ª
-                  <br />
-                  Ana Elisa Silva de Abreu
-                </p>
-                <span>??</span>
-            </div>
-  
-            <div class="professor-card__actions">
-              <button class="button--transparent">
-                Currículo Lattes
-              </button>
-            </div>
+        </div> -->
+        <div class="section-professors__content">
+          <div class="section-professors__professor-name">
+            <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4796905A8" target="_blank">
+              Prof.ª Dr.ª Miriam Gonçalves Miguel (FEC/Unicamp)
+            </a>
           </div>
         </div>
+        
+        <h3 class="section-professors__subtitle">Ensino</h3>
+
+        <div class="section-professors__content">
+          <div class="section-professors__professor-name">
+            <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4796574Z4" target="_blank">
+              Prof.ª Dr.ª Fresia Soledad Ricardi Torres Branco (IG/Unicamp)
+            </a>
+          </div>
+          
+          <div class="section-professors__professor-name">
+            <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4789679U7" target="_blank">
+              Prof. Dr. José Roberto Guimarães (FEC/Unicamp)
+            </a>
+          </div>
+          
+          <div class="section-professors__professor-name">
+            <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4783003P9" target="_blank">
+              Prof.ª Dr.ª Jacinta Enzweiler (IG/Unicamp)
+            </a>
+          </div>
+          
+          <div class="section-professors__professor-name">
+            <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4791442Z1" target="_blank">
+              Prof.ª Dr.ª Ana Elisa Silva de Abreu (IG/Unicamp)
+            </a>
+          </div>
+          
+          <div class="section-professors__professor-name">
+            <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4785992Y6" target="_blank">
+              Prof.ª Dr.ª Sueli Yoshinaga Pereira (IG/Unicamp)
+            </a>
+          </div>
+          
+          <div class="section-professors__professor-name">
+            Paulo de César de Melo Negrão (CLEAN ENVIROMENT BRASIL)
+          </div>
+  
+          <div class="section-professors__professor-name">
+            Nilton Jorge Miyashiro (ENGESOLOS)
+          </div>
+          
+          <div class="section-professors__professor-name">
+            Paulo Lojkasek Lima (HIDRODINÂMICA)
+          </div>
+          
+          <div class="section-professors__professor-name">
+            Alexandre Muselli Barbosa (IPT)
+          </div>
+  
+          <div class="section-professors__professor-name">
+            Leandro Gomes de Freitas (IPT)
+          </div>
+  
+          <div class="section-professors__professor-name">
+            Ero Hermínio Crozera
+          </div>
+          
+          <div class="section-professors__professor-name">
+            <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4784577Z3" target="_blank">
+              Prof. Dr. Vagner Roberto Elis (IAG/USP)
+            </a>
+          </div>
+  
+          <div class="section-professors__professor-name">
+            <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4700211D3" target="_blank">
+              Prof. Dr. Renato Luiz Prado (IAG/USP)
+            </a>
+          </div>
+          
+          <div class="section-professors__professor-name">
+            <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4135469P6" target="_blank">
+              Dr. Otávio Coaracy Brasil Gandolfo (IPT)
+            </a>
+          </div>
+            
+          <div class="section-professors__professor-name">
+            Antonio Belincanta (UEM)
+          </div>
+  
+          <div class="section-professors__professor-name">
+            Nilton J. Miyashiro (ENGESOLOS)
+          </div>
+          
+          <div class="section-professors__professor-name">
+            Fernando M. Ferraz (ENGESOLOS)
+          </div>
+          
+          <div class="section-professors__professor-name">
+            Marcelo M. A. Damasco Penna (DAMASCO PENNA)
+          </div>
+          
+          <div class="section-professors__professor-name">
+            Fernando M. A. Damasco Penna (DAMASCO PENNA)
+          </div>
+          
+          <div class="section-professors__professor-name">
+            Marcos T. RIyis (ECD)
+          </div>
+          
+          <div class="section-professors__professor-name">
+            Rosa Maria de Macedo Borges (CETESSB)
+          </div>
+          
+          <div class="section-professors__professor-name">
+            Marco Aurélio Zequim Pede (IN SITU REMEDIATION)
+          </div>
+  
+          <div class="section-professors__professor-name">
+            <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4706620Z1" target="_blank">
+              Prof. Dr. Alexandre Campane Vidal (IG/Unicamp)
+            </a>
+          </div>
+  
+          <div class="section-professors__professor-name">
+            Robert W. Cleary (Schlumberger)
+          </div>
+        </div>
+        
+
+        <!-- <div class="section-professors__list">
+          <div class="section-professors__list__item">
+            <span>
+              Prof.ª Dr.ª Fresia Soledad Ricardi Torres Branco (IG/Unicamp)
+            </span>
+            <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4796574Z4" target="_blank">
+              <button class="button--transparent">
+                Currículo Lattes
+              </button>
+            </a>
+          </div>
+          <div class="section-professors__list__item">
+            <span>
+              Prof. Dr. José Roberto Guimarães (FEC/Unicamp)
+            </span>
+            <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4789679U7" target="_blank">
+              <button class="button--transparent">
+                Currículo Lattes
+              </button>
+            </a>
+          </div>
+          <div class="section-professors__list__item">
+            <span>
+              Prof.ª Dr.ª Jacinta Enzweiler (IG/Unicamp)
+            </span>
+            <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4783003P9" target="_blank">
+              <button class="button--transparent">
+                Currículo Lattes
+              </button>
+            </a>
+          </div>
+          <div class="section-professors__list__item">
+            <span>
+              Prof.ª Dr.ª Ana Elisa Silva de Abreu (IG/Unicamp)
+            </span>
+            <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4791442Z1" target="_blank">
+              <button class="button--transparent">
+                Currículo Lattes
+              </button>
+            </a>
+          </div>
+          <div class="section-professors__list__item">
+            <span>
+              Prof.ª Dr.ª Sueli Yoshinaga Pereira (IG/Unicamp)
+            </span>
+            <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4785992Y6" target="_blank">
+              <button class="button--transparent">
+                Currículo Lattes
+              </button>
+            </a>
+          </div>
+          <div class="section-professors__list__item">
+            <span>
+              Paulo de César de Melo Negrão (CLEAN ENVIROMENT BRASIL)
+            </span>
+          </div>
+          <div class="section-professors__list__item">
+            <span>
+              Nilton Jorge Miyashiro (ENGESOLOS)
+            </span>
+          </div>
+          <div class="section-professors__list__item">
+            <span>
+              Paulo Lojkasek Lima (HIDRODINÂMICA)
+            </span>
+          </div>
+          <div class="section-professors__list__item">
+            <span>
+              Alexandre Muselli Barbosa (IPT)
+            </span>
+          </div>
+          <div class="section-professors__list__item">
+            <span>
+              Leandro Gomes de Freitas (IPT)
+            </span>
+          </div>
+          <div class="section-professors__list__item">
+            <span>
+              Ero Hermínio Crozera
+            </span>
+          </div>
+          <div class="section-professors__list__item">
+            <span>
+              Prof. Dr. Vagner Roberto Elis (IAG/USP)
+            </span>
+            <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4784577Z3" target="_blank">
+              <button class="button--transparent">
+                Currículo Lattes
+              </button>
+            </a>
+          </div>
+          <div class="section-professors__list__item">
+            <span>
+              Prof. Dr. Renato Luiz Prado (IAG/USP)
+            </span>
+            <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4700211D3" target="_blank">
+              <button class="button--transparent">
+                Currículo Lattes
+              </button>
+            </a>
+          </div>
+          <div class="section-professors__list__item">
+            <span>
+              Dr. Otávio Coaracy Brasil Gandolfo (IPT)
+            </span>
+            <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4135469P6" target="_blank">
+              <button class="button--transparent">
+                Currículo Lattes
+              </button>
+            </a>
+          </div>
+          <div class="section-professors__list__item">
+            <span>
+              Antonio Belincanta (UEM)
+            </span>
+          </div>
+          <div class="section-professors__list__item">
+            <span>
+              Nilton J. Miyashiro (ENGESOLOS)
+            </span>
+          </div>
+          <div class="section-professors__list__item">
+            <span>
+              Fernando M. Ferraz (ENGESOLOS)
+            </span>
+          </div>
+          <div class="section-professors__list__item">
+            <span>
+              Marcelo M. A. Damasco Penna (DAMASCO PENNA)
+            </span>
+          </div>
+          <div class="section-professors__list__item">
+            <span>
+              Fernando M. A. Damasco Penna (DAMASCO PENNA)
+            </span>
+          </div>
+          <div class="section-professors__list__item">
+            <span>
+              Marcos T. RIyis (ECD)
+            </span>
+          </div>
+          <div class="section-professors__list__item">
+            <span>
+              Rosa Maria de Macedo Borges (CETESSB)
+            </span>
+          </div>
+          <div class="section-professors__list__item">
+            <span>
+              Marco Aurélio Zequim Pede (IN SITU REMEDIATION)
+            </span>
+          </div>
+          <div class="section-professors__list__item">
+            <span>
+              Prof. Dr. Alexandre Campane Vidal (IG/Unicamp)
+            </span>
+            <a href="http://buscatextual.cnpq.br/buscatextual/visualizacv.do?id=K4706620Z1" target="_blank">
+              <button class="button--transparent">
+                Currículo Lattes
+              </button>
+            </a>
+          </div>
+          <div class="section-professors__list__item">
+            <span>
+              Robert W. Cleary (Schlumberger)
+            </span>
+          </div>
+        </div> -->
       </section>
 
       <section id="realizacao" class="section-realization">
@@ -464,8 +740,7 @@
             </a>
           </div>
           <div class="section__logo section__logo--sm">
-            <a href="" target="_blank">
-              Ajustar este LINK!
+            <a href="http://www.engesolos.com.br" target="_blank">
               <img
                 class="section__logo__image"
                 src="src/assets/images/engesolos-logo.png"
@@ -483,39 +758,41 @@
           </div>
         </div>
       </section>
-
-      <section class="footer">
-        <div class="footer__info">
-          <span>Informações:</span>
-          <div>
-              Coordenadoria de
-              Extensão e Eventos/FEC
-              <br /><br />
-              Av. Saturnino de Brito, 224
-              <br />
-              Cx Postal 6143 | Campinas - SP
-              CEP 13083-889
-              <br /><br />
-              (19) 3521-2308
-              <br /><br />
-              <a href="https://www.extecamp.unicamp.br" target="_blank">
-                www.extecamp.unicamp.br
-              </a>
-          </div>
-        </div>
-
-        <!-- <div class="vertical-delimiter"></div> -->
-        
-        <div class="footer__links">
-          <a href="">Inscrever-me</a>
-          <a href="#como-funciona">Como funciona</a>
-          <a href="#sobre">Sobre os cursos de extensão</a>
-          <a href="#cursos">Cursos de extensão</a>
-          <a href="#docentes">Docentes</a>
-          <a href="#realizacao">Realização</a>
-          <a href="#apoio">Apoio</a>
-        </div>
-      </section>
     </div>
+
+    <footer class="footer">
+      <div class="footer__content">
+          <div class="footer__content__info">
+              <span>Informações:</span>
+              <div>
+                Coordenadoria de
+                Extensão e Eventos/FEC
+                <br /><br />
+                Av. Saturnino de Brito, 224
+                <br />
+                Cx Postal 6143 | Campinas - SP
+                CEP 13083-889
+                <br /><br />
+                (19) 3521-2308
+                <br /><br />
+                <a href="https://www.extecamp.unicamp.br" target="_blank">
+                  <u>www.extecamp.unicamp.br</u>
+                </a>
+              </div>
+            </div>
+      
+            <!-- <div class="vertical-delimiter"></div> -->
+            
+            <div class="footer__content__links">
+              <a href="#cursos">Inscrever-me</a>
+              <a href="#como-funciona">Como funciona</a>
+              <a href="#sobre">Sobre os cursos de extensão</a>
+              <a href="#cursos">Cursos de extensão</a>
+              <a href="#docentes">Docentes</a>
+              <a href="#realizacao">Realização</a>
+              <a href="#apoio">Apoio</a>
+            </div>
+      </div>
+    </footer>
   </body>
 </html>

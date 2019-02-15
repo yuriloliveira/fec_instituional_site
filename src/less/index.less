@@ -4,11 +4,14 @@
 @import "colors";
 @import "layout";
 
+@section-min-width: 800px;
+@section-max-width: 1366px;
+
 /* style */
 .main-container {
     width: 100%;
-    min-width: 800px;
-    max-width: 1366px;
+    min-width: @section-min-width;
+    max-width: @section-max-width;
 
     margin: 0 auto;
 
@@ -48,6 +51,10 @@
     text-align: right;
 }
 
+.section-intro__content__text__title {
+    margin: 0;
+}
+
 .section-intro__actions {
     width: 100%;
     .flex(row, flex-end);
@@ -73,8 +80,8 @@
 .section-how__content__card__title {
     color: @blue;
     text-align: center;
-    font-size: 32px;
-    margin-bottom: @spacing;
+    font-size: 28px;
+    margin-bottom: 0;
     margin-top: 0;
 }
 
@@ -88,7 +95,7 @@
 
 .card {
     background-color: #fff;
-    box-shadow: rgba(0, 0, 0, .3) 0 1px 5px;
+    box-shadow: rgba(0, 0, 0, .15) 0 1px 5px;
     padding: @spacing @spacing-lg;
 }
 
@@ -102,9 +109,13 @@
     position: relative;
 }
 
+.course-card__title {
+    font-size: 16px;
+}
+
 .course-card__title__tag {
     position: absolute;
-    right: 0;
+    right: 1px;
     top: -7px;
     z-index: 1;
 }
@@ -115,6 +126,7 @@
 
 .course-card__actions__subscribe {
     color: green;
+    box-shadow: rgba(0, 0, 0, .3) 0 1px 5px;
 }
 
 .section-course__content {
@@ -126,44 +138,94 @@
     width: calc(50% - (@section-padding-left / 2));
 }
 
-.section-professors__content {
-    .flex(row, space-between);
-    flex-wrap: wrap;
+.section-professors > .section__title {
+    margin-bottom: @spacing;
 }
 
-.professor-card {
-    width: calc(25% - @spacing-md);
+.section-professors__subtitle {
+    .section__title(); 
     margin-bottom: @spacing-md;
 }
 
-.professor-card--coordination {
-    margin: 0 auto;
+.section-professors__content {
+    .flex(row, center);
+    flex-wrap: wrap;
 }
 
-.professor-card__picture {
-    margin: 0 auto;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    background-color: rgba(0, 0, 0, .1);
-}
-
-.professor-card__content {
-    text-align: center;
-    margin-bottom: @spacing;
-}
-
-.professor-card__content__name {
-    font-size: 18px;
+.section-professors__professor-name {
+    font-size: 16px;
+    padding: @spacing-md @spacing-sm;
     font-weight: 600;
-    margin-bottom: @spacing;
-}
-
-.professor-card__actions {
-    button {
-        width: 100%;
+    a {
+        text-decoration: underline;
     }
 }
+
+.section-professors__list {
+    .flex(column, flex-start);
+}
+
+// .section-professors__list__item {
+//     width: 100%;
+//     // padding: @spacing-sm 0;
+//     height: 50px;
+//     .flex(row, space-between, center);
+
+//     font-size: 16px;
+//     font-weight: 600;
+
+//     border-bottom: 1px solid rgba(255, 255, 255, 0);
+
+//     transition: border ease-in-out .15s;
+
+//     button {
+//         float: right;
+//         text-decoration: underline;
+//     }
+
+//     &:hover {
+//         border-bottom: 1px solid @red;
+//     }
+// }
+
+// .section-professors__content {
+//     .flex(row, space-between);
+//     flex-wrap: wrap;
+// }
+
+// .professor-card {
+//     width: calc(25% - @spacing-md);
+//     margin-bottom: @spacing-md;
+// }
+
+// .professor-card--coordination {
+//     margin: 0 auto;
+// }
+
+// .professor-card__picture {
+//     margin: 0 auto;
+//     width: 100px;
+//     height: 100px;
+//     border-radius: 50%;
+//     background-color: rgba(0, 0, 0, .1);
+// }
+
+// .professor-card__content {
+//     text-align: center;
+//     margin-bottom: @spacing;
+// }
+
+// .professor-card__content__name {
+//     font-size: 18px;
+//     font-weight: 600;
+//     margin-bottom: @spacing;
+// }
+
+// .professor-card__actions {
+//     button {
+//         width: 100%;
+//     }
+// }
 
 .section__logo-container {
     .flex(row, space-between, center);
@@ -193,12 +255,20 @@
 }
 
 .footer {
+    width: 100%;
     background-color: @red;
+}
+
+.footer__content {
+    min-width: @section-min-width;
+    max-width: @section-max-width;
+    margin: 0 auto;
+
     color: #fff;
 
     .flex(row, space-between);
 
-    padding: @spacing-lg @section-padding-left !important;
+    padding: @spacing-lg 0 !important;
     margin-bottom: 0 !important;
     
     a {
@@ -208,9 +278,9 @@
 
 @footer-div-width: 50%;
 
-.footer__info {
+.footer__content__info {
     width: @footer-div-width;
-    margin-left: @spacing;
+    margin-left: @section-padding-left;
     border-right: 1px solid #fff;
 
     .flex(row, flex-start);
@@ -220,7 +290,7 @@
     }
 }
 
-.footer__links {
+.footer__content__links {
     width: @footer-div-width;
     text-align: center;
 
