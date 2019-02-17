@@ -6,6 +6,12 @@
   padding: 0 @section-padding-left;
 }
 
+.course-page__header {
+  .header__item:last-child {
+    padding-right: @spacing-lg;
+  }
+}
+
 .course-page__breadcrumb {
   color: @red;
 }
@@ -14,6 +20,22 @@
   .dropdown-menu__dropdown {
     background-color: @red;
   }
+}
+
+.course-page__subscription-closed {
+  padding: @spacing-sm @spacing;
+  background-color: #ccc;
+  color: #000;
+  border-radius: 2px;
+
+  /* Prevent text selecion */
+  -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
 }
 
 .course-page__title {
