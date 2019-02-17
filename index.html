@@ -13,11 +13,33 @@
     
     <!-- script imports -->
     <script src="./src/scripts/less.min.js"></script>
+    <script lang="javascript">
+      /**
+        * Scrolls into specific view if an anchor ('.../index.html#someanchor') was given
+        */
+      function scrollToAnchor() {
+        const curUrl = window.location.href;
+
+        const indexOfAnchor = curUrl.lastIndexOf('#');
+        if (indexOfAnchor === -1 || indexOfAnchor === curUrl.length) {
+          return;
+        }
+
+        const sectionId = curUrl.substring(indexOfAnchor + 1, curUrl.length);
+        const sectionElement = document.getElementById(sectionId);
+  
+        if (!sectionElement) {
+          return;
+        }
+        
+        sectionElement.scrollIntoView();
+      }
+    </script>
 
     <title>Especialização em Investigação Ambiental</title>
   </head>
 
-  <body>
+  <body onload="scrollToAnchor();">
     <nav class="header">
       <a class="header__item" href="#como-funciona">Como funciona</a>
       <a class="header__item" href="#sobre">Sobre os cursos de extensão</a>
