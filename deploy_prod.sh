@@ -1,0 +1,1 @@
+sh make_release.sh && scp -r /home/yuri/fec_instituional_site/release/investigacaoambiental/* investigacaoambiental@spfec06.fec.unicamp.br:/home/profaux/investigacaoambiental/public_html/
