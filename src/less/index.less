@@ -155,8 +155,11 @@
     font-size: 16px;
     padding: @spacing-md @spacing-sm;
     font-weight: 600;
-    a {
+    color: @blue;
+
+    a, a:visited {
         text-decoration: underline;
+        color: inherit;
     }
 }
 
@@ -185,6 +188,28 @@
     height: 100%;
     display: block;
     margin: 0 auto;
+}
+
+.section-logo__container--bottom-line > * {
+    margin-bottom: 0;
+}
+
+.section-contact__title {
+    margin-bottom: 0;
+}
+
+.section-contact__text {
+    text-align: center;
+    font-size: 1.25em;
+}
+
+.section-contact__text__link {
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+section:last-child {
+    margin-bottom: 50px;
 }
 
 .footer {
