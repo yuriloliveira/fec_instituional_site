@@ -1,1 +1,1 @@
-rm -rf ./release/ & mkdir ./release/ & cp -Ri ./src/ ./release/ & cp -Ri ./cursos/ ./release/ & cp index.html ./release/
+rm -rf ./release && mkdir ./release/ && cp -Ri ./src/ ./release/ && cp -Ri ./cursos/ ./release/ && cp index.html ./release/
