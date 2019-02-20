@@ -1,1 +1,1 @@
-sh make_release.sh && mv ./release/ ./investigacaoambiental/ && scp -r /home/yuri/fec_instituional_site/investigacaoambiental/ ra188802@ssh.students.ic.unicamp.br:/home/cc2016/ra188802/public_html && mv ./investigacaoambiental/ ./release/
+sh make_release.sh && scp -r /home/yuri/fec_instituional_site/release/investigacaoambiental/ ra188802@ssh.students.ic.unicamp.br:/home/cc2016/ra188802/public_html

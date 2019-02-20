@@ -1,1 +1,1 @@
-rm -rf ./release && mkdir ./release/ && cp -Ri ./src/ ./release/ && cp -Ri ./cursos/ ./release/ && cp index.html ./release/
+rm -rf ./release/investigacaoambiental && mkdir -p ./release/investigacaoambiental/ && cp -Ri ./src/ ./release/investigacaoambiental/ && cp -Ri ./cursos/ ./release/investigacaoambiental/ && cp index.html ./release/investigacaoambiental/
